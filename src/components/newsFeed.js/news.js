@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import AddNews from './addNews'
-import ListNews from './listNews'
 
 class News extends Component {
   render() {

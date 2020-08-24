@@ -43,7 +43,7 @@ render(){
       
   <div className="card text-center" key={pack.key} styles="width: 18rem;">
       <br/>
-<center>  {pack.url ? <img src={pack.url} alt="..." class="rounded" height="170px" width="170px"/> : "No picture"}
+<center>  {pack.url ? <img src={pack.url} alt="..." className="rounded" height="170px" width="170px"/> : "No picture"}
      </center>
   <div className="card-body">
   <h5 className="card-title">Heading:{pack.heading} </h5>

@@ -9,7 +9,6 @@ import News from './components/newsFeed.js/news'
 import { BrowserRouter as Router , Route , Switch , Redirect } from 'react-router-dom';
 import DisplayNews from './components/homeElements/displayNews'
 import Login from './components/homeElements/login'
-import ImageUpload from './components/misc/imageUpload'
 import NewsDetail from '../src/components/newsFeed.js/newsDetail'
 import Edit from './components/newsFeed.js/edit';
 import ListNews from './components/newsFeed.js/listNews';

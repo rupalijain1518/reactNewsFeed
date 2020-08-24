@@ -43,7 +43,7 @@ render(){
     
   <div className="card text-center" styles="width: 18rem;">
       <br/>
-<center>  {this.state.user.url ? <img src={this.state.user.url} alt="..." class="rounded" height="170px" width="170px"/> : "No picture"}
+<center>  {this.state.user.url ? <img src={this.state.user.url} alt="..." className="rounded" height="170px" width="170px"/> : "No picture"}
      </center>
   <div className="card-body">
   <h5 className="card-title">Heading:{this.state.user.heading} </h5>

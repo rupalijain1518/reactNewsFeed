@@ -63,9 +63,7 @@ class AddNews extends Component {
           .getDownloadURL() // <- this is not working
           .then(url => {
             this.setState(() => ({ url }),()=>{
-              console.log(this.state , "uplaod pic")
-            
-          });
+            });
           }).catch(
             error =>{
               this.setState({
@@ -80,8 +78,8 @@ class AddNews extends Component {
 
       console.log("handle submit 1")
 // adding all the data to the firestore
-    const db= await firebase.firestore()
-      db.collection("newsData").add({
+    const db=  firebase.firestore()
+      await db.collection("newsData").add({
       link:this.state.link,
       heading : this.state.heading,
       date:this.state.date,
@@ -92,7 +90,7 @@ class AddNews extends Component {
           })
           .catch((err) => {
             this.setState({
-          err : err
+          error : err
         },()=>{})
             console.log("error occured" ,err)
           });
