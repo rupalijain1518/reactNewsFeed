@@ -1,38 +1,2894 @@
-.App {
+/*@media screen and (min-width: 1901px) {
+	.MainHeaderBar {
+    	background-image: linear-gradient(to left, #3e9d76 -40%, #86c6c2 100%);
+	}
+
+	.SetsBacksImgsSecs {
+    	height: 700px;
+	}
+}*/
+
+@media screen and  (min-width: 992px)  {
+
+	.NavMenuListed {
+		top: 48px;
+	}
+
+	.SetsRigsBtns button {
+	    background-color: #38996d!important;
+	    border-color: #38996d!important;
+	    color: #fff;
+	    padding: 4px 10px;
+	    font-size: 13px;
+	    letter-spacing: 1px;
+	    margin: 0;
+	    border-radius: 17px;
+	    display: inline;
+	}
+
+	.FooterRowLayer {
+    	position: relative;
+    	top: 19em;
+	}
+
+	.FootersBacksSets {
+	    height: 450px;
+	    background-size: cover;
+	}
+
+	.FooterLogoBarSet {
+		text-align: center!important;
+	}
+
+	.SetDataself {
+	    transform: translate(-340px, 59px);
+	}
+
+	.NavLogo {
+	    text-align: right;
+    	margin: 0;
+	}
+
+	.SetOneselfData {
+    	transform: translate(-161px, 204px);
+	}
+
+	.SetsArtificialsParas {
+	    transform: translate(123px, -21px);
+	}
+
+	.SetsArtificialsParas img {
+    	width: 100%;
+	}
+
+	.ThirdEyeMobileSet img {
+    	width: 100%;
+	}
+
+	.SetButtonPos {
+    	position: relative;
+    	top: 107px;
+	}
+
+	.backgroundSet h2 {
+	    margin: 18px 0 40px 0;
+	    font-size: 25px;
+	}
+
+	.BacksLayersSets {
+	    top: 186px;
+	    right: -33px;
+	}
+
+	.PackageSecSett {
+    	margin-top: 1em;
+	}
+	.NavLogo img {
+    	width: 10%;
+	}
+
+	.NevbarMenuBtn .navbar-toggler {
+		padding: 0 5px;
+	}
+
+	.NavMenuList > li > a {
+    	color: #000!important;
+    	padding: 5px;
+	}
+
+	.NavMenuListed {
+		position: absolute;
+	    top: 56px;
+	    background: rgb(255, 255, 255);
+        padding: 0 13px;
+    	text-align: center;
+    	z-index: 1;
+	}
+
+	.MainHeaderBar {
+	    background-image: linear-gradient(to top, #3e9d76 -40%, #e3f1eb 100%);
+	}
+
+	.NevbarMenuBtn button {
+		display: none;
+	}
+
+	.NevbarMenuBtn button > svg {
+		height: 26px;
+	}
+
+
+	.NevbarMenuBtn button:focus , .NevbarMenuBtn button > svg:focus {
+		outline: 0;
+	}
+
+	.FootersLogoSet {
+		font-size: 30px;
+	}
+
+	.SideBarBtnSet {
+	    background-color: #38996d!important;
+	    border-color: #38996d!important;
+	    color: #fff;
+	    padding: 4px 10px;
+	    font-size: 13px;
+	    letter-spacing: 1px;
+	    /*margin: 0 0 0 20px;*/
+	    border-radius: 17px;
+	    display: inline;
+        float: right;
+	    top: 11px;
+	    position: relative;
+	}
+
+	.HeadFontSet h1 {
+		padding: 0 15px;
+		font-size: 25px;
+		font-weight: 600;
+	    background: transparent;
+        transform: inherit;
+        float: left;
+	}
+
+	.MainHeadSpan {
+		display: block;
+	}
+
+	.ParaPotential p {
+		padding: 20px 0;
+	    font-size: 20px;
+	}
+
+	.ParaPotential p span {
+    	display: inline;
+	}
+
+	.SetRigBtn {
+    	text-align: left;
+	}
+
+	.SetRigBtn button {
+    	background-color: #38996d!important;
+	    border-color: #38996d!important;
+	    color: #fff;
+	    padding: 4px 10px;
+	    font-size: 13px;
+	    letter-spacing: 1px;
+	    margin: 0 0 0 20px;
+	    border-radius: 17px;
+	    display: inline;
+	}
+
+	.SetsBacksImgsSecs {
+		display: none;
+	}
+
+	.BackImgImgsSecs {
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    z-index: 0;
+	    width: 100%;
+	    display: block;
+	    padding: 0;
+	}
+
+	.BacksImgsImgsSecs {
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    z-index: 0;
+	    width: 100%;
+	    display: block;
+	    padding: 0;
+	}
+
+	.BackImgImgsChild {
+		margin: 0;
+	}
+
+	.LeveragingData h2 {
+		display: inline-block;
+	    margin: 25px 0 0 0;
+    	font-size: 20px;
+	}
+
+
+
+	.LeveragingData {
+		display: inline-block;
+		width: 88%;
+	}
+
+
+	.SetDecisionImg {
+    	background: #c5c5c5ba;
+	    padding: 5px;
+	    border-radius: 28px;
+	    width: 8%;
+	    float: left;
+	    height: 40px;
+	}
+
+	.SetDecisionImg img {
+		width: 100%;
+	}
+
+	.SetMobileView {
+		margin-top: 40px;
+	}
+
+
+	.SetArtificialPara {
+		padding: 0;
+    	clear: both;
+	}
+
+	.SetArtificialPara p {
+		margin: 0;
+		font-size: 18px;
+		font-weight: 600;
+	}
+
+	.PricingImgSet {
+		text-align: center;
+	}
+
+	.PackageDataSet {
+	    width: 72%;
+	    margin: auto;
+	}
+
+	.PricingImgSet img {
+    	width: 60%;
+	}
+
+	.ThirdEyesHeadCareer {
+    	padding: 30px 0 12px 0px;
+	}
+
+	.ThirdEyesHeadCareer h2 {
+	    font-size: 43px;
+	    padding: 0 23px;
+	}
+
+	.ThirdEyesCareer p {
+    	font-size: 19px;
+	    line-height: 1.3;
+	    padding: 0 23px;
+	}
+
+	.MainRateSet {
+    	font-size: 50px;
+	}
+	
+	.MainRateUser {
+	    bottom: -33px;
+	}
+
+	.backgroundSet {
+	    background-image: linear-gradient(to top, #3e9d76 -40%, #6fbaae 100%);
+	}
+	
+	.IntegrationSet h2 {
+		margin: 8px 0 36px 0;
+    	clear: both;
+    	font-size: 33px;
+	}
+
+	.ThirdEyesCareer , .SetRigBtn {
+	    padding: 30px 0 12px 0px;
+	}
+
+	.PackAgeDataSet .col-sm-12 i {
+    	font-size: 18px;
+	}
+
+	.PricingHead {
+		padding: 0;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.PricingHead h3 {
+	    display: inline;
+	    padding: 6px 15px;
+	    font-size: 30px;
+	    background-color: transparent;
+	}
+
+	.SetEmailData {
+    	font-size: 13px;
+    	margin: 5px 0 0px 0;
+	}
+
+	.SetsEmailsDatas {
+		width: 52%;
+	}
+
+	.SetPrivacyData {
+    	padding: 0;
+    	width: 43%;
+	}
+
+	.EducatPara {
+		display: none;
+	}
+	.SetIconBar p {
+    	font-size: 17px;
+    	margin: 0 0 10px 0;
+	}
+
+	.SocialIconSet a svg {
+	    width: 18px;
+    	height: 17px;
+	}
+
+	.ThirdPhoneImgData img {
+	    width: 100%;
+	    z-index: 1;
+	    position: relative;
+	}
+
+	.ThirdBackLayerSet {
+		display: none;
+	}
+
+	.BackLayerSets {
+	    position: absolute;
+	    z-index: -1;
+	    right: -19px;
+    	bottom: -43px;
+	    width: 100%;
+	}
+
+	.BacksLayersSets {
+		display: none;
+	}
+
+	.SideButtonAttech {
+    	width: 100%;
+    	margin: 0px;
+	    position: absolute;
+    	bottom: -53px;
+    	left: -4px;
+	}
+
+	.SetsButtonBarIcon {
+    	transform: translate(-6px, 14px);
+	}
+
+	.SetBtnsBarsIcon {
+    	transform: translate(-3px, 50px);
+	}
+
+	.ThirdEyesCareers {
+    	transform: translate(0px, 131px);
+	}
+
+	.HeadFontSet h1 {
+	    font-size: 29px;
+	    font-weight: 600;
+	    transform: inherit;
+	    float: left;
+	    background: #51a79b42;
+	    padding: 45px 0px 30px 68px;
+	}
+
+	.MainHeadSpan {
+    	display: inline;
+	}
+
+	.NavMenuList li {
+    	padding: 0 20px;
+	}
+
+	.NavMenuList li a {
+		padding: 0;
+		color: #fff!important;
+	}
+
+	.NavLogo img {
+	    width: 25%;
+	}
+
+	.NavMenuListed {
+    	position: absolute;
+    	top: 51px;
+    	background: transparent;
+    	padding: 0 13px;
+    	right: 0;
+	}
+
+	.MainHeaderBar {
+    	background-image: linear-gradient(to left, #3e9d76 -40%, #86c6c2 100%);
+	}
+
+	.ParaPotential p {
+    	padding: 23px 0px 20px 51px;
+	}
+
+	.SetRigBtn {
+    	text-align: center;
+	}
+
+	.SetDecisionImg {
+		height: auto;
+		border-radius: 12px;
+	}
+
+	.SetRowUnnamed {
+		position: relative;
+    	top: 115px;
+	}
+
+	.BackImgImgsSecs {
+		display: none;
+	}
+
+	.SetsBacksImgsSecs {
+    	display: block;
+	}
+
+	.SetRoobetImgBack {
+		background-size: contain;
+	}
+
+	.BacksImgsImgsSecs {
+		display: none;
+	}
+
+	.SetRoobetImgs img {
+		width: 69%;
+    	margin: 52px 0px 0px 0;
+	}
+
+	.SetRoobetImg img {
+    	margin: 66px 0 0 10px;
+	}
+
+	.ThirdselfDataImg {
+	    top: -27px;
+	    left: -78px;
+	    right: 0;
+	    width: 76%;
+	}
+
+	.LeveragingsDatas h2 {
+    	margin: 18px 0 0 0;
+   		font-size: 20px;
+    	transform: inherit;
+	}
+
+	.SetArtificials p {
+    	margin: 14px 0px 0 0px!important;
+	}
+
+	.SetRoobetImgBack img {
+	    width: 76%;
+	    margin: 46px 0 0 0;
+	    position: absolute;
+	    left: -7px;
+	}
+
+	.SetDecisionDataImg {
+	    background: #c5c5c5ba;
+	    margin-top: 12px;
+	    border-radius: 12px;
+	    padding: 9px;
+	}
+
+	.SetDataself {
+    	transform: translate(-171px, 119px);
+	}
+
+	.ArtificialsDataImgs {
+        transform: translate(226px, -113px);
+	}
+
+	.ArtificialsDataImgs img {
+    	width: 80%;
+	}
+
+	.ButtonBarIcon button {
+		padding: 4px 9px 4px 44px;
+	}
+
+	.SetsDecisionsImg {
+    	background: #c5c5c5ba;
+	    margin: 4px 0px 0px 0px;
+	}
+
+	.LeveragingDatas h2 {
+	    margin: 24px 0 0 0;
+    	font-size: 20px;
+	}
+	.NavsLogos img {
+    	width: 28%;
+    	vertical-align: middle;
+	}
+
+}
+
+@media screen and (min-width: 1200px) {
+	.MainHeaderBar {
+    	background-image: linear-gradient(to left, #3e9d76 -40%, #86c6c2 100%);
+	}
+
+	.ButtonBarIcon button {
+    	padding: 4px 9px 4px 26px;
+	}
+
+	.SetsRigsBtns button {
+	    background-color: #38996d!important;
+	    border-color: #38996d!important;
+	    color: #fff;
+	    padding: 4px 10px;
+	    font-size: 13px;
+	    letter-spacing: 1px;
+	    margin: 0;
+	    border-radius: 17px;
+	    display: inline;
+	}
+
+	.FootersBacksSets {
+	    height: 550px;
+	    background-size: cover;
+	}
+
+	.FooterRowLayer {
+    	position: relative;
+    	top: 23em;
+	}
+
+	.ParaPotential p span {
+	    display: inline;
+	}
+
+	.SetRoobetImgBack img {
+    	width: 56%;
+	}
+
+	.FooterLogoBarSet {
+		text-align: center!important;
+	}
+
+	.HeadFontSet h1 {
+	    font-size: 53px!important;
+	    font-weight: 600!important;
+	    transform: inherit!important;
+	    float: left!important;
+	    background: #51a79b42!important;
+	    padding: 45px 0px 30px 125px!important;
+	}
+
+	.ParaPotential p {
+    	padding: 23px 0px 20px 107px!important;
+    	font-size: 30px!important;
+	}
+
+	.SetRigBtn button{
+		padding: 9px 21px!important;
+	}
+
+	.ThirdEyeMobileSet img {
+    	width: auto!important;
+	}
+
+	.ArtificialsDataImgs img {
+	    width: 82%;
+	}
+
+	.SetsArtificialsParas {
+    	transform: translate(138px, -24px);
+	}
+
+	.SetsArtificialsParas img {
+		width: 75%;
+		position: absolute;
+    	top: -23px;
+    	right: 0;
+	}
+
+	.NavMenuList li {
+    	padding: 0 12px;
+	}
+
+	.SetRoobetImgBack img {
+	    width: 75%;
+	    margin: 29px 0 0 0;
+	}
+
+	.SetRoobetImgs img {
+    	width: 59%;
+    }
+
+	.NavMenuList li {
+    	padding: 0 12px;
+	}
+
+	.HeadFontSet h1 {
+	    transform: translate(-56px, 0);
+	}
+	.SetBtnPos {
+		transform: translate(93px, 10px);
+	}
+
+	.SetsBtnsPos {
+		transform: translate(222px, 40px);
+	}
+
+	.SetsBtnsPoses {
+		transform: translate(21px, 73px);
+	}
+
+	.SetButtonsIcon {
+	    margin: 13px 7px;
+    	transform: translate(-53px, 11px);
+	}
+
+	.SetOneselfData {
+    	transform: translate(-160px, 170px);
+	}
+
+	.SetRoobetImg img {
+	    width: 75%;
+	    margin: 68px 0 0 44px;
+	}
+
+	.ThrivingDataThird {
+    	margin: 44px 0 0 29px;
+	}
+
+	.SetArtificialPara p {
+    	margin: 14px 0px 0 0px;
+	}
+
+	.SocialIconSet a svg {
+    	width: 26px;
+    	height: 23px;
+	}
+
+	.ArtificialsDataImgs {
+        transform: translate(110px, -2px);
+	    text-align: right;
+	    position: absolute;
+	    right: 0;
+	}
+
+	.SetArtificials p {
+    	margin: 14px 0px 0 -9px!important;
+	}
+
+	.SetsButtonsIcons {
+		margin: 13px 7px;
+    	transform: translate(-48px, 78px);
+	}
+	.BacksLayersSets {
+    	top: 186px;
+    	right: -35px;
+	}
+
+	.DisclaimerData {
+		padding: 30px 0 0 0;
+	}
+
+	.ParaPotential p {
+	    padding: 23px 0px 20px 89px;
+	}
+
+	.ButtonBarsIcon {
+    	transform: translate(-1px, -1px);
+	}
+	.FooterLogoBarSet {
+		text-align: center!important;
+	}
+
+	.NavsLogos img {
+    	width: 20%!important;
+	}
+
+	.SetDataself {
+    	transform: translate(-160px, 80px)!important;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.NavLogo img {
+	    width: 25%;
+	    vertical-align: -webkit-baseline-middle;
+	}
+
+	.ButtonBarIcon button {
+	    padding: 4px 9px 4px 45px;
+	}
+
+	.SetsRigsBtns button {
+	    background-color: #38996d!important;
+	    border-color: #38996d!important;
+	    color: #fff;
+	    padding: 4px 10px;
+	    font-size: 13px;
+	    letter-spacing: 1px;
+	    margin: 0;
+	    border-radius: 17px;
+	    display: inline;
+	}
+
+	.LeveragingDatas h2 {
+    	font-size: 20px;
+	}
+
+	.SetPrivacyData ul li {
+	    font-size: 16px;
+	}
+
+	.SetEmailData {
+    	font-size: 16px;
+	}
+
+	.NavsLogos img {
+    	width: 20%;
+    	vertical-align: -webkit-baseline-middle;
+	}
+
+	.FootersLogoSet {
+    	font-size: 33px;
+	}
+
+	.ThirdEyesHeadCareer h2 {
+    	font-size: 60px;
+    	padding: 0 23px;
+	}
+
+	.ThirdEyesCareer p {
+    	font-size: 35px;
+	}
+
+	.FooterRowLayer {
+    	position: relative;
+    	top: 33em;
+	}
+
+	.FootersBacksSets {
+    	height: 730px;
+    	background-size: cover;
+	}
+
+	.ThirdselfDataImg {
+	    width: 79%;
+	    position: absolute;
+	    top: 3px;
+        left: -29px;
+	}
+	.HeadFontSet h1 {
+		transform: translate(-58%, 10px);
+		padding: 45px 0px 30px 68px;
+	}
+
+	.NavMenuList li {
+    	padding: 0 15px;
+	}
+
+	.ArtificialsDataImgs img {
+    	width: 66%;
+	}
+
+	.ArtificialsDataImgs {
+	    text-align: right;
+	    position: absolute;
+	    right: 0;
+	}
+
+	.SetRoobetImgBack img {
+	    width: 90%;
+	    margin: 60px 0 0 0;
+	}
+
+	.SetRoobetImgs img {
+		width: 59%;
+	}
+
+	.SetArtificialPara p {
+		margin: 14px 0px 0 0px;
+	}
+
+	.SetOneselfData {
+    	transform: translate(-152px, 182px);
+	}
+
+	.SetsArtificialsParas {
+        transform: translate(138px, -28px);
+	    float: right;
+	    position: absolute;
+	    right: 0;
+	}
+
+	.SetsArtificialsParas img {
+		width: 82%;
+    	float: right;
+	}
+
+	.SetRoobetImg img {
+    	width: 85%;
+    	margin: 116px 0 0 62px;
+	}
+
+	.SetsBacksImgsSecs {
+    	margin-top: 0px;
+	}
+
+	.DataArtificialsImgs {
+		transform: translate(-66px, -33px);
+	}
+
+	.DataArtificialsImgs img {
+    	width: 90%;
+	}
+
+	.DataDecisionsImgs {
+    	background: #c5c5c5ba;
+	}
+
+
+	.SetArtificials p {
+    	margin: 14px 0px 0 0px!important;
+	}
+
+	.ThrivingDataThird {
+    	margin: 44px 0 0 0px;
+	}
+
+	.BacksLayersSets {
+		top: 282px;
+	}
+
+	.BackLayerSets {
+		right: -127px;
+		bottom: 53px;
+	}
+
+	.BackLayerSet {
+		left: 62px;
+		top: 57px;
+	}
+	.SetBtnPos {
+		transform: translate(93px, 10px);
+	}
+
+	.SetsBtnsPos {
+		transform: translate(222px, 40px);
+	}
+
+	.SetsBtnsPoses {
+		transform: translate(21px, 73px);
+	}
+
+	.SetButtonsIcon {
+	    margin: 13px 7px;
+    	transform: translate(-53px, 11px);
+	}
+
+	.SetsButtonsIcons {
+		margin: 13px 7px;
+    	transform: translate(-48px, 78px);
+	}
+
+	.ButtonBarsIcon {
+		transform: translate(94px, 10px);
+	}
+	.SetsButtonBarIcon {
+		transform: translate(-46px, 36px);
+	}
+
+	.SetBtnsBarsIcon {
+		transform: translate(-41px, 116px);
+	}
+
+	.ThirdEyesCareers {
+		transform: translate(0px, 250px);
+	}
+
+	.PackageSecSett {
+		clear: both;
+    	margin-top: 6em;
+	}
+	.BacksLayersSets {
+	    position: absolute;
+	    z-index: -1;
+	}
+
+	.SetsArtificialsParas img {
+    	width: 55%!important;
+	}
+
+	.SetRoobetImg img {
+    	width: 70%!important;
+    	margin: 50px 0 0 44px!important;
+	}
+
+	.ThirdselfDataImg {
+	    top: -16px!important;
+	    left: -85px!important;
+	    right: 0!important;
+	    width: 58%!important;
+	}
+
+	.SetRoobetImgBack img {
+	    width: 75%;
+	    margin: 42px 0 0 0;
+	    position: absolute!important;
+	    left: -7px!important;
+	}
+
+	.ThrivingDataThird {
+    	margin: 44px 0 0 47px!important;
+    	padding: 0 0 0 21px;
+	}
+
+	.ArtificialsDataImgs {
+    	transform: translate(110px, 0px)!important;
+	}
+
+	.SetRowUnnamed {
+	    position: relative!important;
+	    top: 83px!important;
+	    left: -35px!important;
+	}
+
+	.ThirdselfData {
+    	transform: translate(78px, 157px)!important;
+	}
+
+	.SetDataself {
+    	transform: translate(-174px, 59px)!important;
+	}
+
+	.SetRoobetImgBack {
+    	background-size: contain!important;
+	}
+
+	.ArtificialsDataImgs img {
+    	width: 50%!important;
+	}
+
+	.FooterLogoBarSet {
+		text-align: center;
+	}
+
+	.FooterLogoBarSet {
+		text-align: center!important;
+	}
+}
+
+@media screen and (min-width: 1800px) {
+	.ButtonBarIcon button {
+	    padding: 4px 9px 4px 75px;
+	}
+}
+
+/*---------Set the landscape view-------*/
+
+@media screen and (max-width: 991px) {
+	.SetsArtificialsParas {
+	    transform: translate(113px, 5px);
+	}
+
+	.SetsPassword {
+    	width: 100%;
+    	float: left;
+	}
+
+	.SetsPasswordsBox {
+	    width: 100%;
+	    float: left;
+	}
+
+	.SetAboutData {
+    	margin: auto;
+	}
+
+	.SetAboutData {
+		margin: auto;
+	}
+
+	.SetRemembers , .SetsRemembers {
+		padding: 0;
+	}
+
+	.ButtonBarIcon {
+		text-align: center;
+	}
+
+	.ButtonBarIcon button {
+    	padding: 6px 25px;
+    	width: 85%;
+	}
+
+	.SetsRigsBtns button {
+	    background-color: #38996d!important;
+	    border-color: #38996d!important;
+	    color: #fff;
+	    padding: 4px 10px;
+	    font-size: 13px;
+	    letter-spacing: 1px;
+	    margin: 0;
+	    border-radius: 17px;
+	    display: inline;
+	}
+
+	.MainRateSet {
+    	font-size: 30px;
+    	color: #695e5e;
+	}
+
+	.MainRateUser {
+    	position: relative;
+    	bottom: -13px;
+	}
+
+	.LeveragingData h2 , .LeveragingsDatas h2 , .LeveragingDatas h2 {
+		font-size: 20px;
+	}
+
+	.FooterLogoBarSet {
+		text-align: center!important;
+	}
+
+	.FootersBacksSets {
+	    height: 500px;
+	    background-position: right;
+	    background-size: cover;
+	}
+
+	.FooterRowLayer {
+	    position: relative;
+	    top: 19em;
+	}
+
+	.SetButtonPos {
+    	position: relative;
+    	top: 0;
+	}
+
+	.SetOneselfData {
+	    transform: translate(-157px, 41px);
+	}
+
+	.SetsDecisionsImg {
+		margin: 9px;
+	}
+
+	.NavMenuList ul {
+		width: 100%;
+    	justify-content: flex-end;
+	}
+
+	.HeadFontSet h1 {
+		padding: 45px 0px 30px 50px;
+	}
+
+	.ParaPotential p span {
+		display: inline-block;
+	}
+
+	.NavLogo img {
+    	width: 25%;
+	}
+
+	.NavMenuList li {
+    	padding: 0px;
+	}
+
+	.SetRoobetImgs img {
+	    width: 70%;
+	    position: absolute;
+	    top: 39px;
+	}
+	.SetDecisionImg {
+    	height: auto;
+    	border-radius: 12px;
+    	margin-top: 23px;
+	}
+
+	.LeveragingsDatas img {
+		width: 45%;
+		float: right;
+	}
+
+	.SetRowUnnamed {
+		padding-top: 63px;
+	}
+
+	.SetRoobetImg img {
+    	width: 100%;
+    	margin: 62px 0 0 0px;
+	}
+
+	.ThirdselfData {
+	    transform: translate(93px, 27px);
+	}
+
+	.ThirdselfDataImg {
+    	width: 100%;
+    	top: 9px;
+    	left: -73px;
+	}
+
+	.SetArtificials p {
+    	margin: 14px 0px 0 0px!important;
+	}
+	.LeveragingsDatas h2 {
+	    margin: 12px 0 0 0;
+    	transform: initial;
+	}
+
+	.ThrivingDataThird {
+    	margin: 44px 0 0 0px;
+	}
+
+	.SetDecisionDataImg {
+		margin-top: 24px;
+	}
+
+	.SetRoobetImgBack img {
+	    width: 100%;
+	    margin: 45px 0 0px 0;
+	    padding: 0;
+	}
+
+	.ArtificialsDataImgs {
+    	transform: translate(135px, -52px);
+	}
+
+	.ArtificialsDataImgs img {
+    	width: 100%;
+	}
+
+	.SetDataself {
+	    transform: translate(-214px, 41px);
+	}
+
+	.PricingHead {
+		margin: 0;
+	}
+
+	.ThirdEyesCareers {
+    	transform: translate(0px, 131px);
+	}
+
+	.FooterLogoBarSet {
+		text-align: center;
+	}
+
+	.NavsLogos img {
+    	width: 30%;
+	}
+
+	.backgroundSet h2 {
+    	margin: 18px 0 40px 0;
+    	font-size: 25px;
+	}
+
+	.ButtonBarsIcon {
+	    right: -47px;
+	    top: 5px;
+	    transform: inherit;
+	    position: relative;
+	}
+
+	.SetsButtonBarIcon {
+	    transform: inherit;
+	    position: absolute;
+	    top: 182px;
+    	right: 5px;
+	}
+
+	.SetBtnsBarsIcon {
+        top: 127px;
+	    position: absolute;
+	    text-align: inherit;
+	    left: -7px;
+	}
+
+	.SideBarBtnSet {
+		display: none;
+	}
+	.BacksLayersSets {
+    	top: 72px;
+    	right: -12px;
+    	display: block;
+	}
+
+	.ParaPotential p {
+    	padding: 23px 0px 20px 39px;
+	}
+
+	.BackLayerSet {
+    	left: -9px;
+    	top: 18px;
+	}
+
+	.BackLayerSets {
+    	right: -70px;
+    	bottom: 11px;
+	}
+
+	.ThirdBackLayerSet {
+    	bottom: 0px;
+	}
+
+	.NavMenuList {
+	    width: 100%;
+    	justify-content: flex-end;
+	}
+
+	.ThirdEyeSecData  {
+	    background-size: cover;
+	}
+}
+
+/*--------------------------------------*/
+
+/*---------767px lapis set-------*/
+@media screen and (max-width: 767px) {
+ 	.SideBarBtnSet {
+ 		display: inline-block;
+ 		background-color: #38996d!important;
+	    border-color: #38996d!important;
+	    color: #fff;
+	    padding: 4px 10px;
+	    font-size: 13px;
+	    letter-spacing: 1px;
+	    border-radius: 17px;
+	    display: inline;
+	    
+	    top: 13px;
+	    position: relative;
+ 	}
+
+ 	.SetRemembers {
+    	text-align: center;
+    	padding: 6px 14px;
+	}
+
+	.SetLoginBtn {
+	    font-size: 20px;
+	}
+
+ 	.SetsDiscDatas p {
+ 		text-align: justify;
+ 	}
+
+ 	.SetLoginBar {
+    	padding: 3px 0px 45px 1px;
+	}
+
+	.SetRemembers {
+		text-align: center;
+	}
+
+	.SocialsIconsSet {
+    	text-align: right;
+    	width: 50%;
+    	float: left;
+	}
+
+	.SetsSocialsIcones {
+    	width: 50%;
+    	float: left;
+	}
+
+ 	.FootersBacksSets {
+	    height: 444px;
+	    background-position: right;
+        background-size: cover;
+ 	}
+
+ 	.FooterRowLayer {
+    	position: relative;
+    	top: 14.5em;
+	}
+
+ 	.SetButtonPos {
+    	position: relative;
+    	top: 0;
+	}		
+
+ 	.ButtonBarIcon {
+		text-align: center;
+	}
+
+	.ButtonBarIcon button {
+	    padding: 6px 46px;
+	    cursor: pointer;
+	    width: 40%;
+	}
+
+ 	.BacksImgsImgsSecs {
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    z-index: 0;
+	    width: 100%;
+	    display: block;
+	    padding: 0;
+ 	}
+
+ 	.ThirdEyesHeadCareer h2 {
+    	font-size: 28px;
+	}
+	.ThirdEyesCareer p {
+    	font-size: 19px;
+	}
+
+	.MainRateUser {
+    	bottom: -14px;
+    	font-size: 16px!important;
+	}
+
+	.MainRateSet {
+    	font-size: 28px!important;
+	}
+
+ 	.SetArtificialPara p {
+	    clear: both;
+ 	}
+
+ 	.LeveragingData {
+ 		width: 88%;
+    	float: right;
+ 	}
+
+ 	.LeveragingData h2 {
+	    margin: 12px 0 0 0;
+    	font-size: 22px;
+ 	}
+
+ 	.SetLowerSet {
+ 		padding: 0;
+ 	}
+
+ 	.SetLowerSet img {
+    	width: 100%;
+    	height: 130px;
+	}
+
+ 	.SetLayeViewPhone {
+ 		display: none;
+ 	}
+
+ 	.NevbarMenuBtn button {
+    	top: 35px;
+	}
+
+ 	.FootersLogoSet {
+	    font-size: 19px;
+ 	}
+
+ 	.HeadFontSet h1 {
+	    padding: 15px 0px 15px 42px;
+	    font-size: 29px;
+	    transform: translate(-5px, 0);
+	}
+
+	.ThirdBackLayerSet {
+		display: none;
+	}
+
+	.ParaPotential p {
+	    padding: 5px 24px;
+	    font-size: 17px;
+	}		
+
+	.SetRigBtn button {
+		padding: 8px 7px;
+    	font-size: 14px;
+	}
+
+ 	.NevbarMenuBtn button svg {
+ 		height: 25px;
+ 	}
+
+	.NavLogo {
+    	width: 85%;
+	    padding: 0;
+	}
+
+ 	.NavLogo img {
+    	width: 12%;
+	}
+
+	.SetRoobetImgs img {
+    	width: 32%;
+	}
+
+	.SetBsckImgSec > .row {
+    	padding: 31px 0 0 7px;
+	}
+
+	.SetsBacksImgsSecs {
+    	background-size: 50% 50%;
+    	margin-top: 0;
+	} 
+
+	.ParaPotential p span {
+    	display: block;
+	}
+
+	.BackImgImgsSecs {
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    z-index: 0;
+	    width: 100%;
+	    display: block;
+	    padding: 0;
+	}
+
+	.NavMenuList li a {
+    	padding: 5px;
+    	color: #fff;
+	}
+
+	.NevbarMenuBtn button {
+		border: 0;
+	}
+
+	.NevbarMenuBtn button:focus {
+		outline: 0;
+	}
+
+	.NavMenuListed {
+    	position: absolute;
+	    top: 106px;
+	    background: rgb(133, 197, 193);
+	    padding: 0 5px;
+	    text-align: center;
+	    z-index: 1;
+	    left: 8px;
+	    right: auto;
+	    border: 0;
+	    width: 17%;
+	}
+
+	.NavMenuList li {
+    	padding: 0;
+	}
+
+	.SetDecisionImg {
+	    background: #c5c5c5ba;
+	    padding: 7px;
+	    border-radius: 37px;
+	    width: 10%;
+	    float: left;
+	    height: auto;
+	    margin: 0;
+	}
+
+	.SetMobileView {
+    	margin-top: 20px;
+	}
+
+	/*.NavLogo img {
+    	width: 11%;
+	}*/
+
+	.SideButtonAttech {
+	    position: absolute;
+	    top: 177px;
+	    left: -4px;
+	    right: 0px;
+	    transform: translate(-33px, 15px);
+	}
+
+	.BackLayerSet {
+    	left: -25px;
+    	top: -29px;
+	}
+
+	.SetsButtonBarIcon {
+    	transform: translate(29px, -4px);
+	}
+
+	.SetBtnsBarsIcon {
+    	transform: translate(32px, 28px);
+	}
+
+	.SetPrivacyData ul li {
+    	padding: 3px 0px;
+	}
+
+	.NavsLogos img {
+    	width: 27%;
+	}
+
+	.MainHeadSpan {
+    	display: block;
+	}
+
+	.FooterLogoBarSet {
+    	text-align: center;
+	}
+
+	/*.ThirdEyeSecondImg .ThirdEyeSecondChild {
+    	bottom: 48px;
+	}*/
+
+	.BacksLayersSets {
+    	top: 63px;
+	}
+
+	.SetsButtonBarIcon {
+	    top: -53px;
+    	right: 0px;
+	}
+
+	.SetBtnsBarsIcon {
+    	top: -28px;
+	}
+
+	.ButtonBarsIcon {
+    	right: -49px;
+	    top: 50px;
+	    position: relative;
+	}
+
+	.SetsDecisionsImg {
+		margin: 21px 3px 33px 7px;
+	}
+
+	.DailyNewsTitle h2 {
+		font-size: 27px;
+	}
+
+	.AboutPageSet {
+    	padding: 32px 0 0 0;
+	}
+
+	.NevbarMenuBtn {
+		padding: 6px 0;
+	}
+
+}
+
+/*--------------------------------*/
+
+/*---------Small Device 575px-------*/
+
+@media screen and (max-width: 575px) {
+	.NavLogo {
+	    width: 85%;
+	}
+
+	.SetRemembers {
+		text-align: center;
+	}
+
+	.SocialsIconsSet {
+    	text-align: right;
+    	width: 50%;
+    	float: left;
+	}
+
+	.SetsSocialsIcones {
+    	width: 50%;
+    	float: left;
+	}
+
+	.FooterRowLayer {
+    	position: relative;
+    	top: 10em;
+	    background-size: cover;
+	}
+
+	.SetButtonPos {
+    	position: relative;
+    	top: 0;
+	}
+
+	.FootersBacksSets {
+    	height: 430px;
+    	background-position: bottom;
+    	background-size: cover;
+	}
+
+	.ButtonBarIcon {
+		text-align: center;
+	}
+
+	.ButtonBarIcon button {
+	    padding: 6px 40px;
+	    cursor: pointer;
+	    width: 50%;
+	}
+
+	.SetsButtonBarIcon {
+    	top: -53px;
+    	right: 1px;
+	}
+
+	.NavMenuList li {
+    	text-align: center;
+	}
+
+	.FooterLogoBarSet {
+		text-align: center;
+	}
+
+	.SetPrivacySec > .row {
+		margin: 0;
+	}
+
+	.PackageSecSett {
+    	margin-top: 1em;
+	}
+
+	.NavsLogos img {
+    	width: 13%;
+	}
+
+	/*.NavLogo img {
+    	width: 10%;
+	}*/
+
+	.NevbarMenuBtn .navbar-toggler {
+		padding: 0 5px;
+	}
+
+	.NavMenuList > li > a {
+    	color: #fff;
+    	padding: 5px;
+	}
+
+	.NavMenuListed {
+		position: absolute;
+	    top: 82px;
+	    background: rgb(110, 181, 152);
+	    padding: 0 5px;
+	    text-align: left;
+	    z-index: 1;
+	    right: auto;
+	    left: 18px;
+	    width: 25%;
+	}
+
+	.MainHeaderBar {
+	    background-image: linear-gradient(to top, #3e9d76 -40%, #e3f1eb 100%);
+	}
+
+	.NevbarMenuBtn button {
+		border: 0;
+		top: 20px;
+	}
+
+	.NevbarMenuBtn button > svg {
+		height: 26px;
+	}
+
+
+	.NevbarMenuBtn button:focus , .NevbarMenuBtn button > svg:focus {
+		outline: 0;
+	}
+
+	.FootersLogoSet {
+		font-size: 21px;
+	}
+
+	.SideBarBtnSet {
+	    background-color: #38996d!important;
+	    border-color: #38996d!important;
+	    color: #fff;
+	    padding: 4px 10px;
+	    font-size: 13px;
+	    letter-spacing: 1px;
+	    border-radius: 17px;
+	    display: inline;
+        float: right;
+	    top: 11px;
+	    position: relative;
+	}
+
+	.HeadFontSet h1 {
+		padding: 0 15px;
+		font-size: 25px;
+		font-weight: 600;
+	    background: transparent;
+        transform: inherit;
+        float: left;
+	}
+
+	.MainHeadSpan {
+		display: block;
+	}
+
+	.ParaPotential p {
+		padding: 20px 0 0 16px;
+	    font-size: 20px;
+	}
+
+	.ParaPotential p span {
+    	display: inline;
+	}
+
+	.SetRigBtn {
+    	text-align: left;
+	}
+
+	.SetRigBtn button {
+    	background-color: #38996d!important;
+	    border-color: #38996d!important;
+	    color: #fff;
+	    padding: 4px 10px;
+	    font-size: 13px;
+	    letter-spacing: 1px;
+	    margin: 0 0 0 27px;
+	    border-radius: 17px;
+	    display: inline;
+	}
+
+	.SetsBacksImgsSecs {
+		display: none;
+	}
+
+	.BackImgImgsSecs {
+
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    z-index: 0;
+	    width: 100%;
+	    display: block;
+	    padding: 0;
+	}
+
+	.BacksImgsImgsSecs {
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    z-index: 0;
+	    width: 100%;
+	    display: block;
+	    padding: 0;
+	}
+
+	.BackImgImgsChild {
+		margin: 0;
+	}
+
+	.LeveragingData h2 {
+		display: inline-block;
+	    margin: 4px;
+    	font-size: 20px;
+	}
+
+	.LeveragingsDatas img {
+		width: 45%;
+		float: right;
+	}
+
+	.LeveragingData {
+		display: inline-block;
+		width: 88%;
+	}
+
+
+	.SetDecisionImg {
+    	background: #c5c5c5ba;
+        padding: 3px;
+	    border-radius: 28px;
+	    width: 9%;
+	    float: left;
+	    height: auto;
+	}
+
+	.SetDecisionImg img {
+		width: 100%;
+	}
+
+	.SetMobileView {
+		margin-top: 24px;
+		padding: 0 36px;
+	}
+
+
+	.SetArtificialPara {
+		padding: 0;
+    	clear: both;
+	}
+
+	.SetArtificialPara p {
+		margin: 0;
+		font-size: 18px;
+		font-weight: 600;
+	}
+
+	.PricingImgSet {
+		text-align: center;
+	}
+
+	.PackageDataSet {
+	    width: 72%;
+	    margin: auto;
+	}
+
+	.PricingImgSet img {
+    	width: 60%;
+	}
+
+	.ThirdEyesHeadCareer {
+    	padding: 30px 0 12px 0px;
+	}
+
+	.ThirdEyesHeadCareer h2 {
+	    font-size: 28px;
+    	padding: 0 23px;
+	}
+
+	.ThirdEyesCareer p {
+    	font-size: 19px;
+	    line-height: 1.3;
+	    padding: 0 23px;
+	}
+
+	.MainRateSet {
+    	font-size: 33px!important;
+	}
+	
+	.MainRateUser {
+	    bottom: -13px;
+	}
+
+	.backgroundSet {
+	    background-image: linear-gradient(to top, #3e9d76 -40%, #6fbaae 100%);
+	}
+	
+	.backgroundSet h2 {
+		margin: 8px 0 36px 0;
+    	clear: both;
+    	font-size: 21px;
+	}
+
+	.ThirdEyeSecondImg .ThirdEyeSecondChild {
+	    width: 100%;
+	    border-radius: 21px;
+	    bottom: 106px;
+	    left: -68px;
+	    position: relative;
+	}
+
+	.ThirdEyesCareer , .SetRigBtn {
+	    padding: 30px 0 12px 0px;
+	}
+
+	.PackAgeDataSet .col-sm-12 i {
+    	font-size: 18px;
+	}
+
+	.PricingHead {
+		padding: 0;
+	}
+
+	.PricingHead h3 {
+	    display: inline;
+	    padding: 6px 15px;
+	    border-radius: 0px 24px 24px 32px;
+	    background-image: linear-gradient(to top, #99cbb8 -40%, #83c8d0 100%);
+	    font-size: 19px;
+	}
+
+	.SetEmailData {
+    	font-size: 13px;
+    	margin: 5px 0 0px 0;
+	}
+
+	.SetsEmailsDatas {
+		width: 52%;
+	}
+
+	.SetPrivacyData {
+    	/*padding: 0;*/
+    	width: 43%;
+	}
+
+	.EducatPara {
+		display: none;
+	}
+
+	.SetIconBar p {
+    	font-size: 14px;
+	}
+
+	.SocialIconSet a svg {
+	    width: 20px;
+    	height: 20px;
+	}
+
+	.BackLayerSet {
+	    width: 100%;
+	    left: -63px;
+	    z-index: 0;
+	    top: -29px;
+	}
+
+	.ThirdPhoneImgData img {
+	    width: 100%;
+	    z-index: 1;
+	    position: relative;
+	}
+
+	.ThirdBackLayerSet {
+		display: none;
+	}
+
+	.BackLayerSets {
+	    position: absolute;
+	    z-index: -1;
+	    right: -19px;
+    	bottom: -43px;
+	    width: 100%;
+	}
+
+	.BacksLayersSets {
+		display: none;
+	}
+
+	.SideButtonAttech {
+    	width: 100%;
+    	margin: 0px;
+	    position: absolute;
+	    top: 150px;
+    	left: -3px;
+	}
+
+
+	.ButtonBarsIcon {
+	    right: 58px;
+    	top: 54px;
+    	transform: translate(94px, 10px);
+	}
+
+
+	.SetDataDigital {
+    	padding: 0 0 0 15px;
+	}
+
+	.SetsButtonBarIcon {
+    	transform: translate(31px, -13px);
+	}
+
+	.SetBtnsBarsIcon {
+    	transform: translate(33px, 4px);
+    	top: -26px;
+	    left: 0;
+	}
+
+	.ThirdEyesCareers {
+    	transform: inherit;
+	}
+
+	.SetLoginBar {
+    	padding: 3px 0px 45px 1px;
+    	margin: 0;
+	}
+
+}
+
+/*----------------------------*/
+
+
+/*---------414px min set-------*/
+
+@media screen and (max-width: 414px) {
+	.NavLogo {
+    	width: 80%;
+    	padding: 0;
+	}
+
+
+
+	.SetLoginBar {
+    	padding: 3px 0px 45px 1px;
+    	margin: 0;
+	}
+
+	.SocialsIconsSet {
+	    text-align: right;
+	    width: 50%;
+	    float: left;
+	}
+
+	.SetRemembers {
+		text-align: center;
+	}
+
+	.SetsSocialsIcones {
+		width: 50%;
+    	float: left;
+	}
+
+	.NavLogo img {
+    	width: 14%;
+	}
+
+	.FootersBacksSets {
+    	height: 420px;
+    	background-position: bottom;
+	    background-size: cover;
+	}
+
+	.ButtonBarIcon {
+		text-align: center;
+	}
+
+	.ButtonBarIcon button {
+	    padding: 6px 40px;
+	    cursor: pointer;
+	    width: 68%;
+	}
+
+	.NevbarMenuBtn button {
+    	top: 12px;
+	}
+
+	.FooterLogoBarSet {
+		text-align: center;
+	}
+
+	.PackageSecSett {
+    	margin-top: 1em;
+	}
+
+
+	.NevbarMenuBtn .navbar-toggler {
+		padding: 0 5px;
+	}
+
+	.NavMenuList > li > a {
+    	color: #fff;
+    	padding: 5px;
+	}
+
+	.NavMenuListed {
+		position: absolute;
+        top: 66px;
+    	background: rgb(116 190 165);
+        padding: 0 5px;
+    	text-align: center;
+    	z-index: 1;
+    	left: 3px;
+    	right: auto;
+    	width: 35%;
+	}
+
+	.MainHeaderBar {
+	    background-image: linear-gradient(to top, #3e9d76 -40%, #e3f1eb 100%);
+	}
+
+	.NevbarMenuBtn button {
+		border: 0;
+	}
+
+	.NevbarMenuBtn button > svg {
+		height: 26px;
+	}
+
+
+	.NevbarMenuBtn button:focus , .NevbarMenuBtn button > svg:focus {
+		outline: 0;
+	}
+
+	.FootersLogoSet {
+		font-size: 21px;
+	}
+
+	.SideBarBtnSet {
+	    background-color: #38996d!important;
+	    border-color: #38996d!important;
+	    color: #fff;
+	    padding: 4px 10px;
+	    font-size: 13px;
+	    letter-spacing: 1px;
+	    border-radius: 17px;
+	    display: inline;
+        float: right;
+	    top: 11px;
+	    position: relative;
+	}
+
+	.HeadFontSet h1 {
+		padding: 0 20px;
+		font-size: 25px;
+		font-weight: 600;
+	    background: transparent;
+        transform: translate(-5px, 0);
+	}
+
+	.MainHeadSpan {
+		display: block;
+	}
+
+	.ParaPotential p {
+		padding: 20px 0 0 15px;
+	    font-size: 20px;
+	}
+
+	.ParaPotential p span {
+    	display: inline;
+	}
+
+	.SetRigBtn {
+    	text-align: left;
+	}
+
+	.SetsRigsBtns button {
+    	background-color: #38996d!important;
+	    border-color: #38996d!important;
+	    color: #fff;
+	    padding: 4px 10px;
+	    font-size: 13px;
+	    letter-spacing: 1px;
+	    margin: 0;
+	    border-radius: 17px;
+	    display: inline;
+	}
+
+	.SetsBacksImgsSecs {
+		display: none;
+	}
+
+	.BackImgImgsSecs {
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    z-index: 0;
+	    width: 100%;
+	    display: block;
+	    padding: 0;
+	}
+
+	.BacksImgsImgsSecs {
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    z-index: 0;
+	    width: 100%;
+	    display: block;
+	    padding: 0;
+	}
+
+	.BackImgImgsChild {
+		margin: 0;
+	}
+
+	.LeveragingData h2 {
+		display: inline-block;
+	    margin: 4px;
+    	font-size: 20px;
+	}
+
+	.LeveragingsDatas img {
+		width: 45%;
+		float: right;
+	}
+
+	.LeveragingData {
+		display: inline-block;
+		width: 88%;
+	}
+
+
+	.SetDecisionImg {
+    	background: #c5c5c5ba;
+	    padding: 5px;
+	    border-radius: 28px;
+	    width: 12%;
+	    float: left;
+	    height: 40px;
+	}
+
+	.SetDecisionImg img {
+		width: 100%;
+	}
+
+	.SetArtificialPara {
+		padding: 0;
+    	clear: both;
+	}
+
+	.SetArtificialPara p {
+		margin: 0;
+		font-size: 18px;
+		font-weight: 600;
+	}
+
+	.PricingImgSet {
+		text-align: center;
+	}
+
+	.PackageDataSet {
+	    width: 72%;
+	    margin: auto;
+	}
+
+	.PricingImgSet img {
+    	width: 60%;
+	}
+
+	.ThirdEyesHeadCareer {
+    	padding: 30px 0 12px 0px;
+	}
+
+	.ThirdEyesHeadCareer h2 {
+	    font-size: 25px;
+    	padding: 0 23px;
+	}
+
+	.ThirdEyesCareer p {
+    	font-size: 17px;
+	    line-height: 1.3;
+	    padding: 0 23px;
+	}
+
+	.MainRateSet {
+    	font-size: 33px!important;
+	}
+	
+	.MainRateUser {
+	    bottom: -13px;
+	}
+
+	.backgroundSet {
+	    background-image: linear-gradient(to top, #3e9d76 -40%, #6fbaae 100%);
+	}
+	
+	.backgroundSet h2 {
+		margin: 8px 0 36px 0;
+    	clear: both;
+    	font-size: 21px;
+	}
+
+	.ThirdEyeSecondChild {
+	    width: 100%;
+	    border-radius: 21px;
+	    bottom: 70px;
+	    left: -68px;
+	    position: relative;
+	}
+
+	.ThirdEyesCareer , .SetRigBtn {
+	    padding: 30px 0 12px 0px;
+	}
+
+	.PackAgeDataSet .col-sm-12 i {
+    	font-size: 18px;
+	}
+
+	.PricingHead {
+		padding: 0;
+	}
+
+	.PricingHead h3 {
+	    display: inline;
+	    padding: 6px 15px;
+	    border-radius: 0px 24px 24px 32px;
+	    background-image: linear-gradient(to top, #99cbb8 -40%, #83c8d0 100%);
+	    font-size: 19px;
+	}
+
+	.SetEmailData {
+    	font-size: 14px;
+    	margin: 5px 0 0px 0;
+	}
+
+	.SetsEmailsDatas {
+		width: 52%;
+		padding: 0;
+	}
+
+	.SetPrivacyData {
+    	/*padding: 0;*/
+    	width: 43%;
+	}
+
+	.EducatPara {
+		display: none;
+	}
+
+	.SetIconBar p {
+    	font-size: 15px;
+	}
+
+	.SocialIconSet a svg {
+	    width: 22px;
+    	height: 22px;
+	}
+
+	.BackLayerSet {
+	    width: 100%;
+	    left: -63px;
+	    z-index: 0;
+	    top: -29px;
+	}
+
+	.ThirdPhoneImgData img {
+	    width: 100%;
+	    z-index: 1;
+	    position: relative;
+	}
+
+	.ThirdBackLayerSet {
+		display: none;
+	}
+
+	.BackLayerSets {
+	    position: absolute;
+	    z-index: -1;
+	    right: -19px;
+    	bottom: -43px;
+	    width: 100%;
+	}
+
+	.BacksLayersSets {
+		display: none;
+	}
+	.SetsButtonBarIcon {
+    	transform: translate(33px, -18px);
+	}
+
+	.SetBtnsBarsIcon {
+    	transform: translate(34px, -12px);
+	}
+
+	.ThirdEyesCareers {
+    	transform: inherit;
+	}
+	.SetsButtonBarIcon {
+    	top: -52px;
+    	right: 0px;
+	}
+
+	.SetBtnsBarsIcon {
+    	top: -28px;
+	    left: 1px;
+	    position: relative;
+	}
+
+}
+
+@media screen and (max-width: 411px) {
+	.ButtonBarsIcon {
+    	top: 22px;
+	}
+
+	.ButtonBarIcon button {
+    	padding: 6px 40px;
+    	cursor: pointer;
+    	width: 88%;
+	}
+
+		.NavMenuListed {
+		position: absolute;
+	    top: 48px;
+	    background: rgb(110, 181, 152);
+	    padding: 0 5px;
+	    text-align: left;
+	    z-index: 1;
+	    right: auto;
+	    left: 2px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.SetsButtonBarIcon {
+	    top: -55px;
+	    right: -2px;
+	}
+
+	.ButtonBarIcon button {
+    	padding: 6px 40px;
+    	cursor: pointer;
+    	width: 88%;
+	}
+
+	.SetBtnsBarsIcon {
+    	top: -30px;
+	}
+
+	.NevbarMenuBtn {
+		padding: 0;
+	}
+	
+	.NevbarMenuBtn button {
+    	top: 15px;
+	}
+
+	.NavMenuListed {
+	    position: absolute;
+	    top: 49px;
+	    background: rgb(122, 187, 160);
+	    padding: 0 5px;
+	    text-align: center;
+	    z-index: 1;
+	    left: 2px;
+	    right: auto;
+	    /* width: 35%; */
+	}
+
+	.SetDecisionImg {
+	    background: #c5c5c5ba;
+	    padding: 3px;
+	    border-radius: 28px;
+	    width: 12%;
+	    float: left;
+	    height: auto;
+	}
+}
+
+@media screen and (max-width: 340px) {
+	.NavLogo img {
+    	width: 16%;
+	}
+
+	.ButtonBarIcon button > img {
+		display: none;
+	}
+
+	.NavLogo {
+    	width: 87%;
+	    margin: 0;
+	}
+
+	.NevbarMenuBtn button > svg {
+    	height: 19px;
+	}
+
+	.SideBarBtnSet {
+		padding: 2px 5px;
+	}
+}
+.SetArtificialPara {
+  padding: 0;
+}
+
+.SetPrivacyData ul {
+  padding: 0;
+}
+
+.MainHeaderBar {
+  background-image: linear-gradient(to left, #3e9d76 -40%, #86c6c2 100%);
+}
+
+.NavLogo img {
+  width: 17%;
+}
+
+.NavMenuList li {
+  padding: 0 12px;
+}
+
+.NavMenuList li a {
+  font-weight: 600;
+  /*background: #fff;
+  color: #000 !important;*/
+}
+
+.NavMenuList li a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.NavMenuList > li > a {
+  color: #fff!important;
+  border-bottom: 2px solid transparent;
+}
+
+.NavDropMenu a {
+  color: #000!important;
+}
+
+.NavDropMenu a:active {
+  background-color: #5eb098!important;
+  color: #ffff !important;
+}
+
+.HeadFontSet h1 {
+  font-family: 'Raleway', sans-serif;
+  background: #51a79b42;
+  float: right;
+  padding: 45px 0px 30px 106px;
+  font-weight: 500;
+  color: #fff;
+  text-align: left;
+  display: block;
+}
+
+.HeadPlatForm {
+  padding: 16em 0 0 0px;
+}
+
+.ParaPotential p {
+  font-size: 26px;
+  font-weight: 500;
+  color: #fff;
+  font-family: sans-serif !important;
+  padding: 23px 0px 20px 54px;
+  margin: 0;
+}
+
+.ParaPotential p span {
+  display: block;
+}
+
+.SetRigBtn button {
+  background-color: #38996d!important;
+  border-color: #38996d!important;
+  font-weight: 500;
+  color: #fff;
+  padding: 14px 22px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  border-radius: 10px;
+}
+
+.SetRigBtn button:hover {
+  color: #fff;
+}
+
+.SetRigBtn button:focus {
+  outline: 0!important;
+  box-shadow: none;
+}
+
+
+
+.SetsBacksImgsSecs {
+  height: 550px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.BackImgImgsSecs {
+  display: none;
+}
+
+.SetBsckImgSec > .row {
+  padding: 89px 0 0 42px;
+}
+
+.SetRoobetImg {
   text-align: center;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.SetRoobetImgs img {
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.SetRoobetImg img {
+  width: 100%;
+  height: 150px;
+  margin: 116px 0 0 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.SetRoobetImgBack img {
+  width: 100%;
+  margin: 116px 0 0 0;
+}
+
+.DataBackImg {
+  height: auto;
+  background-size: cover!important;
+  background-position: center !important;
+}
+
+
+.SetsBackImgSec { 
+  height: auto;
+  width: 32%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  z-index: 0;
+}
+
+.SetDecisionImg {
+  background: #c5c5c5ba;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.SetDecisionImg img {
+  width: 100%;
+}
+
+.LeveragingData h2 {
+  vertical-align: middle;
+  margin: 48px 0 0 0;
+  font-size: 25px;
+  font-weight: 700;
+  display: block;
+}
+
+.LeveragingsDatas h2 {
+  vertical-align: middle;
+  margin: 48px 0 0 0;
+  font-size: 25px;
+  font-weight: 700;
+  transform: translate(0px, 68px);
+}
+
+.LeveragingDatas h2 {
+  vertical-align: middle;
+  margin: 45px 0 0 0;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.SetArtificialPara p {
+  margin: 14px 0px 0 0px;
+  line-height: 1.2;
+  color: #8a8a8a;
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+.ParaSetDataThird p {
+  margin: 14px 0px 0 0px!important;
+}
+
+.SetsArtificialsParas p {
+  margin: 14px 0px 0 0px;
+  line-height: 1.2;
+  color: #8a8a8a;
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+}
+
+.SetOneselfData {
+  transform: translate(-160px, 170px);
+}
+
+.SetDataself {
+  transform: translate(-170px, 190px);
+}
+
+.SetsDecisionsImg {
+  background: #c5c5c5ba;
+  margin: 21px 3px 0px 7px;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.SetDecisionDataImg {
+  background: #c5c5c5ba;
+  margin-top: 21px;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.DataDecisionsImgs {
+  background: #c5c5c5ba;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.SetsArtificialsParas {
+  transform: translate(124px, 5px);
+  position: absolute;
+  right: 0;
+}
+
+.SetArtificialsParas p {
+  margin: 14px 0px 0 9px;
+  line-height: 1.2;
+  color: #8a8a8a;
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+.SetArtificials p {
+  margin: 14px 0px 0 -14px!important;
+}
+
+
+.DataArtificialPara {
+  margin: 14px 0px 0 0px!important;
+}
+
+.ThirdEyesSet p {
+  line-height: 1.2;
+  color: #8a8a8a;
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+  margin: 14px 0px 0 0px;
+  font-size: 18px;
+}
+
+.ThirdselfData {
+  transform: translate(78px, 198px);
+}
+
+.ThirdselfDataImg {
+  width: 100%;
+  position: absolute;
+  top: 42px;
+}
+
+.ThrivingDataThird {
+  margin: 44px 0 0 29px;
+}
+
+
+.ArtificialsDataImgs {
+  transform: translate(126px, -73px);
+}
+
+/*.ButtonBarIcon {
+  text-align: right;
+  margin: 30px 0;
+  clear: both;
+  width: 80%;
+  float: right;
+}*/
+
+/*.ButtonBarsIcons {
+  text-align: left;
+  margin: 30px 0;
+  clear: both;
+  width: 80%;
+  float: left;
+}*/
+
+/*.ButtonBarIcon button , .ButtonBarsIcons button {
+  width: 80%;
+  padding: 0;
+  background: #708b83;
+  border-radius: 19px;
+  color: #fff;
+}*/
+
+/*.ButtonBarIcon button:hover , .ButtonBarsIcons button:hover {
+  color: #fff;
+}
+
+.ButtonBarIcon img , .ButtonBarsIcons img {
+  width: 18%;
+}*/
+
+.ThirdPhoneImgData img {
+  width: 100%;
+}
+
+.SetDataDigital {
+  padding: 0;
+}
+
+.ThirdEyeSecondChild {
+  width: 90%;
+  height: 100%;
+}
+
+.BackLayerSet {
+  height: 75px;
+  width: 48%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  position: absolute;
+  left: 154px;
+  top: 40px;
+}
+
+.BackLayerSets {
+  height: 70px;
+  width: 48%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  position: absolute;
+  right: 142px;
+  background-position: bottom;
+  bottom: 29px;
+  z-index: 0;
+}
+
+
+
+.AboutPageSet {
+  padding: 10em 0 0 0px;
+}
+
+.Card_Text {
+  margin-top: 5px;
+  line-height: 1.3;
+  font-family: serif;
+  margin-bottom: 0;
+  color: #444444;
+  font-size: 16px;
+}
+
+
+.SetsDiscDatas {
+  box-shadow: 14px 0px 18px -31px #ccc;
+  padding: 0 7px;
+  height: 1010px;
+  overflow-x: auto;
+}
+
+/* width */
+.SetsDiscDatas::-webkit-scrollbar {
+width: 4px;
+}
+
+.SetsDiscDatas::-webkit-scrollbar-thumb {
+background: #888; 
+}
+
+/* Handle on hover */
+.SetsDiscDatas::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
+
+.Set_news_portal {
+  padding: 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+.SetDateYear {
+  float: right;
+  font-size: 15px;
+  margin: 0;
+  color: #000
+}
+
+.Card_Title {
+  display: inline-block;
+  margin: 0;
+  font-size: 19px;
+  color: #000
+}
+
+.Set_WebLink {
+  display: block;
+  font-size: 15px;
+}
+
+.Set_news_portal img {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px 8px 0 0;
+}
+
+.SetNews_portal {
+  margin: 0px 0 30px 0;
+}
+
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+.App {
+  text-align: justify;
 }
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
