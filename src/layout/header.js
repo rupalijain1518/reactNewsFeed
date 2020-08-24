@@ -7,11 +7,13 @@ class Header extends Component{
   }
 
 render(){
+ console.log(this.props.authenticated,"from header")
   return(    
     
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <a className="navbar-brand" >InfoDeck</a>
       {this.props.authenticated  === null || false     ?  <LogoutLinks/> :<LoggedInLinks/> }
+    
     </nav>
     )
     

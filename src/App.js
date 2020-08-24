@@ -53,7 +53,6 @@ class App extends Component {
         authenticated: null
       })
     }
-    console.log("Authen",this.state.authenticated ,this.state.currentUser)
   }
   
   componentDidMount() {
@@ -69,6 +68,8 @@ class App extends Component {
           currentUser: null,
         })
       }
+      console.log("App",this.state.authenticated ,this.state.currentUser)
+  
     })
   }
   componentWillUnmount() {
@@ -88,10 +89,10 @@ class App extends Component {
     <Route  exact path = "/login"
      render={(props) => { return <Login setCurrentUser={this.setCurrentUser} {...props} />}}
      />
-    <AuthenticatedRoute authenticated={this.state.authenticated} exact path = '/addNews' component = {News}/>
-    <AuthenticatedRoute authenticated={this.state.authenticated} exact path = '/listNews' component = {ListNews}/>
-    <AuthenticatedRoute authenticated={this.state.authenticated} exact path='/showNews/:id' component={NewsDetail} />
-    <AuthenticatedRoute authenticated={this.state.authenticated} exact path='/editNews/:id' component={Edit} />
+    <AuthenticatedRoute authenticated={this.state.currentUser} exact path = '/addNews' component = {News}/>
+    <AuthenticatedRoute authenticated={this.state.currentUser} exact path = '/listNews' component = {ListNews}/>
+    <AuthenticatedRoute authenticated={this.state.currentUser} exact path='/showNews/:id' component={NewsDetail} />
+    <AuthenticatedRoute authenticated={this.state.currentUser} exact path='/editNews/:id' component={Edit} />
     <Route exact path='/logout' component={Logout}/>  
 
     <Route  component = {NotFound} /> 

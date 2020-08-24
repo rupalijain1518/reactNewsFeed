@@ -27,7 +27,7 @@ class NewsDetail extends Component{
 
   delete(id){
     firebase.firestore().collection('newsData').doc(id).delete().then(() => {
-     this.props.history.push("/addRecord")
+     this.props.history.push("/listNews")
     }).catch((error) => {
       console.error("Error removing document: ", error);
     });

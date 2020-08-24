@@ -113,14 +113,14 @@ handleSubmit= async (e)=>{
 
   render() {
     return (
-      <div class="container">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title">
+      <div className="container">
+        <div className="panel panel-default">
+          <div className="panel-heading">
+            <h3 className="panel-title">
               EDIT NEWS
             </h3>
           </div>
-          <div class="panel-body">
+          <div className="panel-body">
             <form >
              
   <div className="form-group">
@@ -138,28 +138,29 @@ handleSubmit= async (e)=>{
 </tr>
 </table>
   </div>
-  
+  { this.state.url && <p className="text-danger">Image Uploaded Successfully</p>}
+ 
               <div class="form-group">
-                <label for="title">Title:</label>
-                <input type="text" class="form-control" name="heading" value={this.state.heading} onChange={this.onChange} placeholder="Title" />
+                <label htmlFor="title">Heading:</label>
+                <input type="text" className="form-control" name="heading" value={this.state.heading} onChange={this.onChange} placeholder="Title" />
               </div>
               <div class="form-group">
-                <label for="description">Description:</label>
-                <input type="text" class="form-control" name="description" value={this.state.description} onChange={this.onChange} placeholder="Description" />
+                <label htmlFor="description">Description:</label>
+                <input type="text" className="form-control" name="description" value={this.state.description} onChange={this.onChange} placeholder="Description" />
               </div>
-              <div class="form-group">
-                <label for="author">Author:</label>
+              <div className="form-group">
+                <label htmlFor="author">Author:</label>
                 <input type="text" class="form-control" name="link" value={this.state.link} onChange={this.onChange} placeholder="Author" />
               </div>
               
-              <div class="form-group">
-                <label for="author">Author:</label>
-                <input type="text" class="form-control" name="date" value={this.state.date} onChange={this.onChange} placeholder="Author" />
+              <div className="form-group">
+                <label htmlFor="author">Author:</label>
+                <input type="text" className="form-control" name="date" value={this.state.date} onChange={this.onChange} placeholder="Author" />
               </div>
         
               {this.state.url && this.state.heading && this.state.link && this.state.date && this.state.description ?
  <button type="submit" onClick = {this.handleSubmit1} className="btn btn-primary">Submit</button>
-:     <button disabled> Submit</button>}
+:     <button disabled className="btn btn-primary"> Submit</button>}
  
             </form>
           </div>

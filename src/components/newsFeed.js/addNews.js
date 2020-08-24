@@ -19,7 +19,7 @@ class AddNews extends Component {
           url:'',
           date:'',
           description:''
-      ,error :""
+      ,error :"", status: false
         }
       }  
       //for image
@@ -75,7 +75,7 @@ class AddNews extends Component {
  })}
 
     handleSubmit1 = async(e) =>{
-
+e.preventDefault()
       console.log("handle submit 1")
 // adding all the data to the firestore
     const db=  firebase.firestore()
@@ -87,6 +87,9 @@ class AddNews extends Component {
       url:this.state.url ? this.state.url : null,
     //  image:this.state.image ?this.state.image :null
     }).then(( res)=>{
+      this.setState({
+        status : true
+      },()=>{})
           })
           .catch((err) => {
             this.setState({
@@ -95,7 +98,9 @@ class AddNews extends Component {
             console.log("error occured" ,err)
           });
   
-
+await this.setState({
+  heading:'',url:'',link:'',description:'',date:''
+})
     }
 render(){
 
@@ -103,6 +108,10 @@ render(){
     return (
         <div>
  { this.state.error && <p className="text-danger">{this.state.error.message}</p>}
+ { this.state.status ? <div class="alert alert-success" role="alert">
+  Data Added
+</div>:null}
+               
         <form >
   <div className="form-group">
     <label htmlFor="formGroupExampleInput">News Heading</label>
@@ -149,11 +158,14 @@ render(){
 </td>
 </tr>
 </table>
+
+{ this.state.url && <p className="text-danger">Image Uploaded Successfully</p>}
+ 
   </div>
   
  {this.state.url && this.state.heading && this.state.link && this.state.date && this.state.description ?
  <button type="submit" onClick = {this.handleSubmit1} className="btn btn-primary">Submit</button>
-:     <button disabled> Submit</button>}
+:     <button disabled className="btn btn-primary"> Submit</button>}
   
 </form>
 </div>
