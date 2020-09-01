@@ -13,7 +13,7 @@ class Header extends Component {
         <div className="row">
           <div className="col-sm-12">
             <nav className="navbar navbar-expand-md navbar-dark NevbarMenuBtn">
-              {this.props.authenticated === null || false ? <LogoutLinks /> : <LoggedInLinks />}
+              {this.props.authenticated === null || this.props.authenticated === false ? <LogoutLinks /> : <LoggedInLinks />}
             </nav>
           </div>
         </div>

@@ -29,7 +29,7 @@ function AuthenticatedRoute({ component: Component, authenticated, ...rest }) {
     <Route
       {...rest}
       render=
-      {(props) => authenticated === false || null ?
+      {(props) => authenticated === false || authenticated === null ?
         <Redirect to={{ pathname: '/login', state: { from: props.location } }} /> :
         <Component {...props} {...rest} />
         /*:   authenticated === null?  <Component {...props} {...rest} /> */
@@ -72,7 +72,7 @@ class App extends Component {
         })
       } else {
         this.setState({
-          authenticated: null,
+          authenticated: false,
           currentUser: null,
         })
       }
@@ -102,14 +102,14 @@ class App extends Component {
             <Route exact path='/register' component={Register} />
             <Route exact path='/news-portal' component={NewsPortal} />
             <Route exact path='/partner' component={Partner} />
-            <AuthenticatedRoute authenticated={this.state.currentUser} exact path='/addNews' component={News} />
-            <AuthenticatedRoute authenticated={this.state.currentUser} exact path='/listNews' component={ListNews} />
-            <AuthenticatedRoute authenticated={this.state.currentUser} exact path='/showNews/:id' component={NewsDetail} />
-            <AuthenticatedRoute authenticated={this.state.currentUser} exact path='/editNews/:id' component={Edit} />
             <Route exact path='/logout' component={Logout} />
             <Route exact path='/disclaimer' component={Disclaimer} />
             <Route exact path='/privacyPolicy' component={PrivacyPolicy} />
             <Route exact path='/about' component={About} />
+            <AuthenticatedRoute authenticated={this.state.currentUser} exact path='/addNews' component={News} />
+            <AuthenticatedRoute authenticated={this.state.currentUser} exact path='/listNews' component={ListNews} />
+            <AuthenticatedRoute authenticated={this.state.currentUser} exact path='/showNews/:id' component={NewsDetail} />
+            <AuthenticatedRoute authenticated={this.state.currentUser} exact path='/editNews/:id' component={Edit} />
 
             <Route exact path='/termsAndConditions' component={TermsConditions} />
             <Route component={NotFound} />
