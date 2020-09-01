@@ -1,13 +1,1244 @@
-/*@media screen and (min-width: 1901px) {
-	.MainHeaderBar {
-    	background-image: linear-gradient(to left, #3e9d76 -40%, #86c6c2 100%);
-	}
+.SetArtificialPara {
+    padding: 0;
+}
 
-	.SetsBacksImgsSecs {
-    	height: 700px;
-	}
+.SetPrivacyData ul {
+    padding: 0;
+}
+
+.MainHeaderBar {
+    background-image: linear-gradient(to left, #3e9d76 -40%, #86c6c2 100%);
+}
+
+.NavLogo img {
+    width: 17%;
+}
+
+.NavMenuList li {
+    padding: 0 12px;
+}
+
+.NavMenuList li a {
+    font-weight: 600;
+    /*background: #fff;
+    color: #000 !important;*/
+}
+
+.NavMenuList li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.NavMenuList > li > a {
+    color: #fff!important;
+    border-bottom: 2px solid transparent;
+}
+
+.NavDropMenu a {
+    color: #000!important;
+}
+
+.NavDropMenu a:active {
+    background-color: #5eb098!important;
+    color: #ffff !important;
+}
+
+.HeadFontSet h1 {
+    font-family: 'Raleway', sans-serif;
+    background: #51a79b42;
+    float: right;
+    padding: 45px 0px 30px 106px;
+    font-weight: 500;
+    color: #fff;
+    text-align: left;
+    display: block;
+}
+
+.HeadPlatForm {
+    padding: 96px 0px;
+}
+
+.ParaPotential p {
+    font-size: 26px;
+    font-weight: 500;
+    color: #fff;
+    font-family: sans-serif !important;
+    padding: 23px 0px 20px 54px;
+    margin: 0;
+}
+
+.ParaPotential p span {
+    display: block;
+}
+
+.SetRigBtn button {
+    background-color: #38996d!important;
+    border-color: #38996d!important;
+    font-weight: 500;
+    color: #fff;
+    padding: 14px 22px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+
+.SetRigBtn button:hover {
+    color: #fff;
+}
+
+.SetRigBtn button:focus {
+    outline: 0!important;
+    box-shadow: none;
+}
+
+.ThirdEyeSecData {
+   background-image: url('./thirdEye/images/4-1.png'); 
+}
+
+.ThirdBackSetImg {
+   background-image: url('./thirdEye/images/4-2.png'); 
+   height: auto;
+}
+
+.SetBsckImgSec {
+    background-image: url('./thirdEye/images/2-1.png');
+}
+
+.BacksImgsSec {
+    background-image: url('./thirdEye/images/3-1.png');
+}
+
+.SetsBacksImgsSecs {
+    height: 550px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.BackImgImgsSecs {
+    display: none;
+}
+
+.SetBsckImgSec > .row {
+    padding: 89px 0 0 42px;
+}
+
+.SetRoobetImg {
+    text-align: center;
+    height: 100%;
+}
+
+.SetRoobetImgs img {
+    width: 100%;
+}
+
+.SetRoobetImg img {
+    width: 100%;
+    height: 150px;
+    margin: 116px 0 0 0;
+}
+
+.SetRoobetImgBack img {
+    width: 100%;
+    margin: 116px 0 0 0;
+}
+
+.DataBackImg {
+    background-image: url(./thirdEye/images/3-2.png);
+    height: auto;
+    background-size: cover!important;
+    background-position: center !important;
+}
+
+.SetsBacksImgData {
+    background-image: url(./thirdEye/images/2-2.png);
+}
+
+
+.SetsBackImgSec { 
+    height: auto;
+    width: 32%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: 0;
+}
+
+.SetDecisionImg {
+    background: #c5c5c5ba;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.SetDecisionImg img {
+    width: 100%;
+}
+
+.LeveragingData h2 {
+    vertical-align: middle;
+    margin: 48px 0 0 0;
+    font-size: 25px;
+    font-weight: 700;
+    display: block;
+}
+
+.LeveragingsDatas h2 {
+    vertical-align: middle;
+    margin: 48px 0 0 0;
+    font-size: 25px;
+    font-weight: 700;
+    transform: translate(0px, 68px);
+}
+
+.LeveragingDatas h2 {
+    vertical-align: middle;
+    margin: 45px 0 0 0;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.SetArtificialPara p {
+    margin: 14px 0px 0 0px;
+    line-height: 1.2;
+    color: #8a8a8a;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+.ParaSetDataThird p {
+    margin: 14px 0px 0 0px!important;
+}
+
+.SetsArtificialsParas p {
+    margin: 14px 0px 0 0px;
+    line-height: 1.2;
+    color: #8a8a8a;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+
+.SetOneselfData {
+    transform: translate(-160px, 170px);
+}
+
+.SetDataself {
+    transform: translate(-170px, 190px);
+}
+
+.SetsDecisionsImg {
+    background: #c5c5c5ba;
+    margin: 21px 3px 0px 7px;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.SetDecisionDataImg {
+    background: #c5c5c5ba;
+    margin-top: 21px;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.DataDecisionsImgs {
+    background: #c5c5c5ba;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.SetsArtificialsParas {
+    transform: translate(124px, 5px);
+    position: absolute;
+    right: 0;
+}
+
+.SetArtificialsParas p {
+    margin: 14px 0px 0 9px;
+    line-height: 1.2;
+    color: #8a8a8a;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+.SetArtificials p {
+    margin: 14px 0px 0 -14px!important;
+}
+
+
+.DataArtificialPara {
+    margin: 14px 0px 0 0px!important;
+}
+
+.ThirdEyesSet p {
+    line-height: 1.2;
+    color: #8a8a8a;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    margin: 14px 0px 0 0px;
+    font-size: 18px;
+}
+
+.ThirdselfData {
+    transform: translate(78px, 198px);
+}
+
+.ThirdselfDataImg {
+    width: 100%;
+    position: absolute;
+    top: 42px;
+}
+
+.ThrivingDataThird {
+    margin: 44px 0 0 29px;
+}
+
+
+.ArtificialsDataImgs {
+    transform: translate(126px, -73px);
+}
+
+/*.ButtonBarIcon {
+    text-align: right;
+    margin: 30px 0;
+    clear: both;
+    width: 80%;
+    float: right;
 }*/
 
+/*.ButtonBarsIcons {
+    text-align: left;
+    margin: 30px 0;
+    clear: both;
+    width: 80%;
+    float: left;
+}*/
+
+/*.ButtonBarIcon button , .ButtonBarsIcons button {
+    width: 80%;
+    padding: 0;
+    background: #708b83;
+    border-radius: 19px;
+    color: #fff;
+}*/
+
+/*.ButtonBarIcon button:hover , .ButtonBarsIcons button:hover {
+    color: #fff;
+}
+
+.ButtonBarIcon img , .ButtonBarsIcons img {
+    width: 18%;
+}*/
+
+.ThirdPhoneImgData img {
+    width: 100%;
+}
+
+.SetDataDigital {
+    padding: 0!important;
+}
+
+.ThirdEyeSecondChild {
+    width: 90%;
+    height: 100%;
+}
+
+.BackLayerSet {
+    background-image: url(./thirdEye/images/5-p1.png);
+    height: 75px;
+    width: 48%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    position: absolute;
+    left: 154px;
+    top: 40px;
+}
+
+.BackLayerSets {
+    background-image: url(./thirdEye/images/5-p2.png);
+    height: 70px;
+    width: 48%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    position: absolute;
+    right: 142px;
+    background-position: bottom;
+    bottom: 29px;
+    z-index: 0;
+}
+
+.BacksLayersSets {
+    background-image: url(./thirdEye/images/5-p2.png);
+    height: 60px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    position: absolute;
+    right: 0px;
+    background-position: right;
+    top: 226px;
+    z-index: 0;
+}
+
+.SetSpaceHaed {
+    padding: 28px 0;
+}
+
+/*.SetsSpacesHaeds {
+    padding: 0px 0px 53px 0;
+    position: relative;
+}*/
+
+.ButtonBarIcon button {
+    background-color: #3f7879;
+    border: none;
+    color: #fff;
+    padding: 4px 9px 4px 93px;
+    font-size: 14px;
+    cursor: pointer;
+    width: auto;
+    margin: 9px 0;
+    border-radius: 27px;
+    font-weight: 600;
+    text-align: left;
+}
+
+/* Darker background on mouse-over */
+.ButtonBarIcon button:hover , .ButtonBarIcon button:focus {
+    background-color: #df722b;
+}
+
+.ButtonsBarsIcons button:hover , .ButtonsBarsIcons button:focus {
+    background-color: #f0b61f!important;
+}
+
+.ButtonBarsIcons button:hover , .ButtonBarsIcons button:focus {
+    background-color: #dc3545!important;
+}
+
+.ButtonBarIcons button:hover , .ButtonBarIcons button:focus {
+    background-color: #76beb5!important;
+}
+
+.ButtonBarIconed button:hover , .ButtonBarIconed button:focus {
+    background-color: #674529!important;
+}
+
+.ButtonBarIcon button:hover , .ButtonBarIcon button:focus , .ButtonBarsIcons button:hover , .ButtonBarsIcons button:focus , .ButtonsBarsIcons button:hover , .ButtonsBarsIcons button:focus ,
+.ButtonBarIcons button:hover , .ButtonBarIcons button:focus , .ButtonBarIconed button:hover , .ButtonBarIconed button:focus {
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+}
+
+.ButtonBarIcon button > img {
+    width: 11%;
+}
+
+/*#continuepage , #registerpage {
+    overflow: hidden;
+}*/
+
+.SetLayerImg {
+    padding: 0!important;
+}
+
+.SetLayerImg img {
+    width: 100%;
+}
+
+.ThirdEyeMobileSet {
+    text-align: center;
+}
+
+.SetButtonPos {
+    position: relative;
+    top: 80px;
+}
+
+.SetGraphicData {
+    margin-bottom: 48px;
+}
+
+.SetGraphicImg img {
+    width: 100%;
+}
+
+.SetGraphicImg p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.ThirdEyeMobileSet img {
+    width: auto;
+}
+
+.backgroundSet {
+    background-image: linear-gradient(to left, #47abaa -40%, #80c0ac 100%);
+    display:block;
+}
+
+.IntegrationSet h2 {
+    text-align: center;
+    font-size: 27px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-weight: 300;
+    margin: 17px 0 0px 0;
+    clear: both;
+}
+
+#bg-text {
+    color:#bdbdbd6e;
+    font-size: 76px;
+    transform:rotate(0deg);
+    -webkit-transform:rotate(0deg);
+    text-align: center;
+}
+
+.ThirdBackLayerSet {
+    z-index: 59;
+    position: absolute;
+    bottom: -84px;
+    padding: 0;
+}
+
+.ThirdBackLayerSet img {
+    width: 100%;
+}
+
+.SetButtonBarIcon {
+    text-align: right;
+    clear: both;
+    width: 100%;
+}
+
+.SetButtonBarIcon button {
+    width: auto;
+    padding: 0;
+    background: #708b83;
+    border-radius: 19px;
+    color: #fff;
+}
+ 
+.SetButtonBarIcon button img {
+    width: 12%;
+    height: 100%;
+}
+
+.ThirdEyesHeadCareer {
+    text-align: center;
+    padding: 63px 0 12px 0px;
+}
+
+.ThirdEyesHeadCareer h2 {
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.ThirdEyesCareer {
+    text-align: center;
+}
+
+.ThirdEyesCareer p {
+    font-size: 25px;
+    font-weight: 600;
+    color: #606060;
+    font-family: 'Raleway', sans-serif;
+}
+
+.FooterRowLayer {
+    position: relative;
+    top: 31em;
+}
+
+/*.FooterBackSet {
+    background-image: url('../images/6-2.png');
+    height: 525px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    z-index: 0;
+    padding: 0;
+}*/
+
+.FootersBacksSets {
+    background-image: url('./thirdEye/images/6-1.png');
+    height: 730px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    z-index: 0;
+    /*padding: 0 12px 0 70px;*/
+    margin: 0;
+}
+
+.NavsLogos img {
+    width: 18%;
+}
+
+.FooterLogSet {
+    color:#0093b4;
+}
+
+.FootersBarSet {
+    color:#38996d;
+}
+
+.FootersLogoSet {
+    font-family: 'Raleway', sans-serif;
+    font-size:27px;
+    font-weight:700;
+    margin: 0px;
+    vertical-align: middle;
+}
+
+.FooterLogSet:after {
+    content: "Eye";
+    display: inline-block;
+    color: #38996d;
+    position: relative;
+    left: -2px;
+}
+
+.NavsLogos:hover {
+    text-decoration: none;
+}
+
+.EducatPara {
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+/*.SetPrivacyData {
+    padding: 0;
+}*/
+
+.SetPrivacyData ul {
+    font-size: 16px;
+	float: right;
+	margin: 0;
+}
+
+.SetPrivacyData ul li {
+    padding: 4px 0px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.SetEmailData {
+    font-size: 15px;
+    color: #fff;
+    margin: 0 0 10px 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.SetDatasEmail , .SetDatasEmails {
+    color: #9a6d6d;
+    font-weight: 600;
+}
+
+.SetDatasEmail:after {
+    content: " info@thirdeyeedu.com";
+    color: #fff;
+    font-weight: 500;
+    padding: 0 0 0 6px;
+}
+
+.SetDatasEmails:after {
+    content: "  154F, Sector 7, IMT Manesar, 122050, Distt Gurgaon";
+    color: #fff;
+    font-weight: 500;
+    padding: 0 0 0 6px;
+}
+
+.SetIconBar p {
+    font-size: 15px;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.SocialIconSet {
+    text-align: center;
+}
+
+.SocialIconSet a {
+    padding: 10px;
+}
+
+.SocialIconSet a:hover {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.SocialIconSet a svg {
+    width: 20px;
+}
+
+.ArtificialsDataImgs img {
+    width: 90%;
+}
+
+.SetsArtificialsParas img {
+    width: 100%;
+}
+
+.DataArtificialsImgs img {
+    width: 100%;
+}
+
+.SetPrivacyData ul li a {
+	color: #fff;
+	padding: 0;
+}
+
+
+.SetPrivacyData ul li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.SetsDiscsDatas h2 {
+    font-size: 30px;
+}
+
+.SetDisclaimer p {
+    text-align: center;
+}
+
+.SetDiscData h1 {
+    font-size: 25px;
+}
+
+.SetsDiscsDatas h3 {
+    font-size: 20px;
+}
+
+.SetDiscData p {
+    margin-bottom: 10px;
+    line-height: 1.3;
+    font-size: 19px;
+    font-family: serif;
+}
+
+.SetsDiscsDatas ul li {
+    font-size: 19px;
+    font-family: serif;
+}
+
+.PricingHead h3 {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #777777f0;
+}
+
+.PricingImgSet img {
+    width: 100%;
+}
+
+.PackageDataSet {
+    background: whitesmoke;
+    border-radius: 12px;
+}
+
+.PackageDataSet h4 {
+    color: #695e5e;
+    margin: 0;
+    padding: 20px 0 27px 0;
+    text-align: center;
+}
+
+.PackagesSets {
+    background-color: #eeeeee;
+}
+
+ul.breadcrumb {
+    padding: 0px;
+    list-style: none;
+    background-color: #eee;
+    margin: 0;
+    font-family: sans-serif !important;
+    justify-content: center;
+}
+
+ul.breadcrumb .MainRateUser+.MainRateUser:before {
+  padding: 0 0 0 8px;
+  color: black;
+  content: " ";
+}
+
+.MainRateUser {
+    position: relative;
+    bottom: -25px;
+    font-size: 19px!important;
+    color: #695e5e;
+}
+
+.MainRateSet {
+    font-size: 46px;
+    color: #695e5e;
+}
+
+.PackagesSets p {
+    margin: 0;
+    text-align: center;
+    padding: 0 0 10px 0;
+    font-size: 16px;
+    color: #908d8d;
+}
+
+.PackAgeDataSet {
+    padding: 15px 0;
+}
+
+.PackAgeDataSet .col-sm-12 i {
+    font-size: 26px;
+}
+
+.PackAgeDataSet .col-sm-12 span {
+    font-size: 16px;
+    color: #908d8d;
+}
+
+.DataFeatures p {
+    text-align: center;
+    margin-bottom: 2px;
+    font-size: 16px;
+}
+
+.DataFeatures p a {
+    text-decoration: none;
+}
+
+.DataFeatures p a:hover {
+    color: #007bff;
+}
+
+.StartGetBtnSet {
+    text-align: center;
+    padding: 0 0 17px 0;
+}
+
+.StartGetBtnSet button {
+    padding: 0px 17px;
+    border-radius: 18px;
+    font-size: 17px;
+    outline: 0!important;
+}
+
+.StartGetBtnSet button:focus {
+    outline: 0!important;
+}
+
+.ThirdEyesCareerMain {
+    transform: translate(0px, 200px);
+}
+
+.SideBarBtnSet {
+    display: none;
+}
+
+.MainHeadSpan {
+    display: inline;
+}
+
+.SetRigBtn {
+    text-align: center;
+}
+
+.BacksImgsImgsSecs {
+    display: none;
+}
+
+.BackLayerSet , .BackLayerSets {
+    position: absolute;
+    z-index: -1;
+}
+
+.ThirdEyeSecondImg , .PhoneImgData {
+    position: relative;
+    z-index: 1;
+}
+
+.BacksLayersSets {
+    position: absolute;
+    z-index: -1;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.SetRigBtn a {
+    text-decoration: none!important;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.SetLoginData {
+    background: #fff;
+    box-shadow: 4px 0px 13px 4px #ccc;
+    padding: 0;
+}
+
+.SetLoginData h2 {
+    background-image: linear-gradient(to left, #3e9d76 -40%, #86c6c2 100%);
+    padding: 13px;
+    color: #000;
+}
+
+.SetLoginBtn {
+    width: 100%;
+    border-radius: 22px;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 4px;
+    color: #fff;
+    background-color: #5aad94;
+    border-color: #5aad94;
+}
+
+.SetLoginBtn:hover {
+    color: #fff;
+    background-color: #5aad94;
+    border-color: #5aad94;
+}
+
+.SetLoginData form {
+    padding: 20px;
+}
+
+.SetInputData:focus , .SetLoginBtn:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border-color: #ced4da;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border-color: #ced4da;
+}
+
+.SetForgetPw p {
+    font-size: 16px;
+    text-align: right;
+    color: #59c36a;
+}
+
+.SetForgetPw:hover {
+    text-decoration: none;
+    list-style-type: none;
+    color: #59c36a;
+}
+
+
+
+.LoginWithSet {
+   text-align: center;
+    font-size: 18px;
+    color: #8a8484;
+    margin: 20px 0;
+}
+
+.LoginWithSet:before {
+    content: " ";
+    display: table-cell;
+}
+
+.LoginWithSet:after {
+    content: " ";
+    display: table-cell;
+}
+
+/*.SetRememberIcon {
+    margin: 19px 0px 8px 0;
+}*/
+
+.SetSocialIcone {
+  background-color: #fff;
+  border: none;
+  color: #000;
+  padding: 6px 8px;
+  font-size: 16px;
+  cursor: pointer;
+  /*width: 100%;*/
+  border: 1px solid #54a98d;
+}
+
+.SetSocialIcone:focus , .SetSocialIcone svg:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.SocialsIconsSet {
+    text-align: right;
+}
+
+.SetSocialIcone svg { 
+    height: 40px;
+}
+
+.SetLogin img {
+    width: 100%;
+}
+
+.SetLoginBar {
+    background: #fff;
+    box-shadow: 5px 6px 36px -13px #ccc;
+    padding: 75px 0px 45px 1px;
+    margin: 100px 0 0 0;
+}
+
+.input-icons svg { 
+    position: absolute;
+    float: right;
+    right: 25px;
+    padding: 10px 6px;
+    width: 33px;
+    color: green;
+} 
+          
+.input-icons { 
+    width: 100%; 
+    margin-bottom: 30px; 
+} 
+  
+.input-field { 
+    width: 100%;
+    padding: 5px 16px;
+    text-align: left;
+    border-radius: 28px;
+    border-color: #ccc;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    color: #747474;
+} 
+
+.input-field:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+  
+.LoginHaed { 
+    color: #000;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+#Classname option:hover {
+    background: #5aad94;
+    color: #fff;
+}
+/*
+.AboutPageSet {
+    padding: 10em 0 0 0px;
+}*/
+
+.Card_Text {
+    margin-top: 5px;
+    line-height: 1.3;
+    font-family: serif;
+    margin-bottom: 0;
+    color: #444444;
+    font-size: 16px;
+}
+
+.SetAboutData img {
+    width: 100%;
+}
+
+.SetsPasswordsBox {
+    width: 49%;
+    float: left;
+    margin-right: 1%;
+}
+
+.SetsPassword {
+    width: 49%;
+    float: left;
+    margin-left: 1%;
+}
+
+.SetPasswordBox , .SetsPasswordBox {
+    width: 49%;
+    float: left;
+    margin-bottom: 0px;
+}
+
+.SetPasswordBox {
+    margin-right: 1%;
+}
+
+.SetsPasswordBox {
+    margin-left: 1%; 
+}
+
+.SetgenderTyp {
+    padding: 22px 0 8px 8px;
+    clear: both;
+}
+
+.InputField {
+    width: 100%;
+    padding: 5px 16px;
+    text-align: left;
+    border-radius: 28px;
+    border-color: #ccc;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    color: #747474;
+}
+
+.InputField:focus {
+    outline: 0;
+}
+
+/* .MenuHeaderBar {
+    position: fixed;
+    z-index: 1;
+} */
+
+.Set_portal {
+    margin: 0;
+}
+
+.SetsDiscDatas {
+    box-shadow: 14px 0px 18px -31px #ccc;
+    padding: 0 7px;
+    height: 1010px;
+    overflow-x: auto;
+}
+
+/* width */
+.SetsDiscDatas::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+/*.SetsDiscDatas::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}*/
+ 
+/* Handle */
+.SetsDiscDatas::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+.SetsDiscDatas::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.Set_news_portal {
+    padding: 0!important;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+	background: #fff;
+	margin: 0 0 15px 0;
+}
+
+.SetDateYear {
+    display: inline-block;
+    float: right;
+    font-size: 15px;
+    margin: 0;
+    color: #000
+}
+
+.Card_Title {
+    display: inline-block;
+    margin: 0;
+    font-size: 19px;
+    color: #000
+}
+
+.Set_WebLink {
+    display: block;
+    font-size: 15px;
+}
+
+/*.NavLogo {
+    text-align: right;
+    margin: 0;
+}*/
+
+.Set_news_portal img {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px 8px 0 0;
+}
+
+.SetNews_portal {
+    margin: 0px 0 30px 0!important;
+}
+
+	.App {
+	  text-align: justify;
+	}
+	
+	.App-link {
+	  color: #61dafb;
+	}
+
+	.PassEye {
+		position: absolute;
+		float: right;
+		right: 25px;
+		padding: 10px 6px;
+		width: 33px;
+		color: #000;
+	}
+
+	 
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+}
+	
 @media screen and  (min-width: 992px)  {
 
 	.NavMenuListed {
@@ -218,10 +1449,9 @@
 		width: 88%;
 	}
 
-
 	.SetDecisionImg {
     	background: #c5c5c5ba;
-	    padding: 5px;
+	    padding: 8px;
 	    border-radius: 28px;
 	    width: 8%;
 	    float: left;
@@ -235,7 +1465,6 @@
 	.SetMobileView {
 		margin-top: 40px;
 	}
-
 
 	.SetArtificialPara {
 		padding: 0;
@@ -604,7 +1833,7 @@
 	.SetsArtificialsParas img {
 		width: 75%;
 		position: absolute;
-    	top: -23px;
+    	top: -70px;
     	right: 0;
 	}
 
@@ -618,7 +1847,7 @@
 	}
 
 	.SetRoobetImgs img {
-    	width: 59%;
+    	width: 75%;
     }
 
 	.NavMenuList li {
@@ -1990,6 +3219,12 @@
 
 /*----------------------------*/
 
+/*---------Small Device 450px-------*/
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+  }
+/*----------------------------*/
 
 /*---------414px min set-------*/
 
@@ -2458,437 +3693,4 @@
 	.SideBarBtnSet {
 		padding: 2px 5px;
 	}
-}
-.SetArtificialPara {
-  padding: 0;
-}
-
-.SetPrivacyData ul {
-  padding: 0;
-}
-
-.MainHeaderBar {
-  background-image: linear-gradient(to left, #3e9d76 -40%, #86c6c2 100%);
-}
-
-.NavLogo img {
-  width: 17%;
-}
-
-.NavMenuList li {
-  padding: 0 12px;
-}
-
-.NavMenuList li a {
-  font-weight: 600;
-  /*background: #fff;
-  color: #000 !important;*/
-}
-
-.NavMenuList li a:hover {
-  border-bottom: 2px solid #fff;
-}
-
-.NavMenuList > li > a {
-  color: #fff!important;
-  border-bottom: 2px solid transparent;
-}
-
-.NavDropMenu a {
-  color: #000!important;
-}
-
-.NavDropMenu a:active {
-  background-color: #5eb098!important;
-  color: #ffff !important;
-}
-
-.HeadFontSet h1 {
-  font-family: 'Raleway', sans-serif;
-  background: #51a79b42;
-  float: right;
-  padding: 45px 0px 30px 106px;
-  font-weight: 500;
-  color: #fff;
-  text-align: left;
-  display: block;
-}
-
-.HeadPlatForm {
-  padding: 16em 0 0 0px;
-}
-
-.ParaPotential p {
-  font-size: 26px;
-  font-weight: 500;
-  color: #fff;
-  font-family: sans-serif !important;
-  padding: 23px 0px 20px 54px;
-  margin: 0;
-}
-
-.ParaPotential p span {
-  display: block;
-}
-
-.SetRigBtn button {
-  background-color: #38996d!important;
-  border-color: #38996d!important;
-  font-weight: 500;
-  color: #fff;
-  padding: 14px 22px;
-  font-size: 20px;
-  letter-spacing: 1px;
-  border-radius: 10px;
-}
-
-.SetRigBtn button:hover {
-  color: #fff;
-}
-
-.SetRigBtn button:focus {
-  outline: 0!important;
-  box-shadow: none;
-}
-
-
-
-.SetsBacksImgsSecs {
-  height: 550px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  z-index: 0;
-}
-
-.BackImgImgsSecs {
-  display: none;
-}
-
-.SetBsckImgSec > .row {
-  padding: 89px 0 0 42px;
-}
-
-.SetRoobetImg {
-  text-align: center;
-  height: 100%;
-}
-
-.SetRoobetImgs img {
-  width: 100%;
-}
-
-.SetRoobetImg img {
-  width: 100%;
-  height: 150px;
-  margin: 116px 0 0 0;
-}
-
-.SetRoobetImgBack img {
-  width: 100%;
-  margin: 116px 0 0 0;
-}
-
-.DataBackImg {
-  height: auto;
-  background-size: cover!important;
-  background-position: center !important;
-}
-
-
-.SetsBackImgSec { 
-  height: auto;
-  width: 32%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right;
-  z-index: 0;
-}
-
-.SetDecisionImg {
-  background: #c5c5c5ba;
-  padding: 10px;
-  border-radius: 12px;
-}
-
-.SetDecisionImg img {
-  width: 100%;
-}
-
-.LeveragingData h2 {
-  vertical-align: middle;
-  margin: 48px 0 0 0;
-  font-size: 25px;
-  font-weight: 700;
-  display: block;
-}
-
-.LeveragingsDatas h2 {
-  vertical-align: middle;
-  margin: 48px 0 0 0;
-  font-size: 25px;
-  font-weight: 700;
-  transform: translate(0px, 68px);
-}
-
-.LeveragingDatas h2 {
-  vertical-align: middle;
-  margin: 45px 0 0 0;
-  font-size: 25px;
-  font-weight: 700;
-}
-
-.SetArtificialPara p {
-  margin: 14px 0px 0 0px;
-  line-height: 1.2;
-  color: #8a8a8a;
-  font-weight: 400;
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-}
-
-.ParaSetDataThird p {
-  margin: 14px 0px 0 0px!important;
-}
-
-.SetsArtificialsParas p {
-  margin: 14px 0px 0 0px;
-  line-height: 1.2;
-  color: #8a8a8a;
-  font-weight: 400;
-  font-family: 'Raleway', sans-serif;
-}
-
-.SetOneselfData {
-  transform: translate(-160px, 170px);
-}
-
-.SetDataself {
-  transform: translate(-170px, 190px);
-}
-
-.SetsDecisionsImg {
-  background: #c5c5c5ba;
-  margin: 21px 3px 0px 7px;
-  border-radius: 12px;
-  padding: 12px;
-}
-
-.SetDecisionDataImg {
-  background: #c5c5c5ba;
-  margin-top: 21px;
-  border-radius: 12px;
-  padding: 12px;
-}
-
-.DataDecisionsImgs {
-  background: #c5c5c5ba;
-  border-radius: 12px;
-  padding: 12px;
-}
-
-.SetsArtificialsParas {
-  transform: translate(124px, 5px);
-  position: absolute;
-  right: 0;
-}
-
-.SetArtificialsParas p {
-  margin: 14px 0px 0 9px;
-  line-height: 1.2;
-  color: #8a8a8a;
-  font-weight: 400;
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-}
-
-.SetArtificials p {
-  margin: 14px 0px 0 -14px!important;
-}
-
-
-.DataArtificialPara {
-  margin: 14px 0px 0 0px!important;
-}
-
-.ThirdEyesSet p {
-  line-height: 1.2;
-  color: #8a8a8a;
-  font-weight: 400;
-  font-family: 'Raleway', sans-serif;
-  margin: 14px 0px 0 0px;
-  font-size: 18px;
-}
-
-.ThirdselfData {
-  transform: translate(78px, 198px);
-}
-
-.ThirdselfDataImg {
-  width: 100%;
-  position: absolute;
-  top: 42px;
-}
-
-.ThrivingDataThird {
-  margin: 44px 0 0 29px;
-}
-
-
-.ArtificialsDataImgs {
-  transform: translate(126px, -73px);
-}
-
-/*.ButtonBarIcon {
-  text-align: right;
-  margin: 30px 0;
-  clear: both;
-  width: 80%;
-  float: right;
-}*/
-
-/*.ButtonBarsIcons {
-  text-align: left;
-  margin: 30px 0;
-  clear: both;
-  width: 80%;
-  float: left;
-}*/
-
-/*.ButtonBarIcon button , .ButtonBarsIcons button {
-  width: 80%;
-  padding: 0;
-  background: #708b83;
-  border-radius: 19px;
-  color: #fff;
-}*/
-
-/*.ButtonBarIcon button:hover , .ButtonBarsIcons button:hover {
-  color: #fff;
-}
-
-.ButtonBarIcon img , .ButtonBarsIcons img {
-  width: 18%;
-}*/
-
-.ThirdPhoneImgData img {
-  width: 100%;
-}
-
-.SetDataDigital {
-  padding: 0;
-}
-
-.ThirdEyeSecondChild {
-  width: 90%;
-  height: 100%;
-}
-
-.BackLayerSet {
-  height: 75px;
-  width: 48%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  float: left;
-  position: absolute;
-  left: 154px;
-  top: 40px;
-}
-
-.BackLayerSets {
-  height: 70px;
-  width: 48%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  float: left;
-  position: absolute;
-  right: 142px;
-  background-position: bottom;
-  bottom: 29px;
-  z-index: 0;
-}
-
-
-
-.AboutPageSet {
-  padding: 10em 0 0 0px;
-}
-
-.Card_Text {
-  margin-top: 5px;
-  line-height: 1.3;
-  font-family: serif;
-  margin-bottom: 0;
-  color: #444444;
-  font-size: 16px;
-}
-
-
-.SetsDiscDatas {
-  box-shadow: 14px 0px 18px -31px #ccc;
-  padding: 0 7px;
-  height: 1010px;
-  overflow-x: auto;
-}
-
-/* width */
-.SetsDiscDatas::-webkit-scrollbar {
-width: 4px;
-}
-
-.SetsDiscDatas::-webkit-scrollbar-thumb {
-background: #888; 
-}
-
-/* Handle on hover */
-.SetsDiscDatas::-webkit-scrollbar-thumb:hover {
-background: #555; 
-}
-
-.Set_news_portal {
-  padding: 0;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-  background: #fff;
-}
-
-.SetDateYear {
-  float: right;
-  font-size: 15px;
-  margin: 0;
-  color: #000
-}
-
-.Card_Title {
-  display: inline-block;
-  margin: 0;
-  font-size: 19px;
-  color: #000
-}
-
-.Set_WebLink {
-  display: block;
-  font-size: 15px;
-}
-
-.Set_news_portal img {
-  width: 100%;
-  height: 200px;
-  border-radius: 8px 8px 0 0;
-}
-
-.SetNews_portal {
-  margin: 0px 0 30px 0;
-}
-
-
-@media screen and (max-height: 450px) {
-.sidenav {padding-top: 15px;}
-.sidenav a {font-size: 18px;}
-}
-.App {
-  text-align: justify;
-}
-
-.App-link {
-  color: #61dafb;
 }
