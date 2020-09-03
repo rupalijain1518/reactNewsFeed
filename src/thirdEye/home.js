@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 
 const LeveragingData = {
-    margin: "25px 0px 0px 29px"
-
+    margin: "44px 0 0 29px"
 };
 const ThrivingDataThird = {
     margin: "44px 0 0 29px"
@@ -19,14 +18,14 @@ class Home extends Component {
                             <div className="row">
                                 <div className="col-sm-12 SetDataDigital">
                                     <h1>
-                                        <span className="MainHeadSpan">An </span>
+                                        <span className="MainHeadSpan">An</span>
                                         <span>AI Powered Digital Learning Platform</span></h1>
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="col-sm-12 ParaPotential">
                                     <p>
-                                        <span>We help students find a career that maximizes </span>
+                                        <span>We help students find a career that maximizes</span>
                                         <span>their potential.</span>
                                     </p>
                                 </div>
@@ -76,7 +75,7 @@ class Home extends Component {
                                         </div>
 
                                         <div className="col-lg-4 col-md-3 col-sm-12 p-0 SetsArtificialsParas">
-                                            <img src={'images/449.png'} alt="449" />
+                                            <img src={'images / 449.png'} alt="449" />
                                         </div>
                                     </div>
                                 </div>

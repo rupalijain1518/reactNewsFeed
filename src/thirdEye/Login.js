@@ -73,7 +73,9 @@ class Login extends Component {
                     </div>
 
                     <div className="offset-md-1 col-md-5 col-sm-12">
-
+                        {this.state.error ? <div className="alert alert-danger" role="alert">
+                            {this.state.error}
+                        </div> : null}
                         <h2 className="LoginHaed">Log in</h2>
                         <form onSubmit={this.handleSubmit}>
                             <div className="input-icons">

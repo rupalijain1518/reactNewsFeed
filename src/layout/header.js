@@ -19,7 +19,6 @@ class Header extends Component {
         </div>
       </div>
     )
-
   }
 }
 export default Header;

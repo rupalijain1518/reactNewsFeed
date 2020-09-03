@@ -21,23 +21,17 @@ import About from './thirdEye/about'
 import Disclaimer from './thirdEye/Disclaimer';
 import Register from './thirdEye/register';
 import Home from './thirdEye/home';
-import Vision from './thirdEye/vision'
-import TermsConditions from './thirdEye/TermsConditions'
 function AuthenticatedRoute({ component: Component, authenticated, ...rest }) {
-
   return (
     <Route
       {...rest}
       render=
-      {(props) => authenticated === false || authenticated === null ?
-        <Redirect to={{ pathname: '/login', state: { from: props.location } }} /> :
-        <Component {...props} {...rest} />
-        /*:   authenticated === null?  <Component {...props} {...rest} /> */
+      {(props) => authenticated === null || false ? <Redirect to={{ pathname: '/login', state: { from: props.location } }} /> : <Component {...props} {...rest} />
+
       }
     />
   )
 }
-
 
 class App extends Component {
   constructor() {
@@ -52,12 +46,12 @@ class App extends Component {
   setCurrentUser(u) {
     if (u) {
       this.setState({
-        currentUser: u,
+        currentUser: true,
         authenticated: true
       })
     } else {
       this.setState({
-        currentUser: null,
+        currentUser: false,
         authenticated: false
       })
     }
@@ -68,20 +62,22 @@ class App extends Component {
       if (u) {
         this.setState({
           authenticated: true,
-          currentUser: u
+          currentUser: true
         })
       } else {
         this.setState({
           authenticated: false,
-          currentUser: null,
+          currentUser: false,
         })
       }
-      console.log("App", this.state.authenticated, this.state.currentUser)
 
     })
+    console.log("App", this.state.authenticated, this.state.currentUser)
+
   }
   componentWillUnmount() {
     this.removeAuthListener();
+
   }
   render() {
     return (
@@ -98,20 +94,16 @@ class App extends Component {
             />
             <Route exact path='/privacyPolicy' component={PrivacyPolicy} />
             <Route exact path='/about' component={About} />
-            <Route exact path='/vision' component={Vision} />
+            <Route exact path='/disclaimer' component={Disclaimer} />
             <Route exact path='/register' component={Register} />
             <Route exact path='/news-portal' component={NewsPortal} />
             <Route exact path='/partner' component={Partner} />
-            <Route exact path='/logout' component={Logout} />
-            <Route exact path='/disclaimer' component={Disclaimer} />
-            <Route exact path='/privacyPolicy' component={PrivacyPolicy} />
-            <Route exact path='/about' component={About} />
             <AuthenticatedRoute authenticated={this.state.currentUser} exact path='/addNews' component={News} />
             <AuthenticatedRoute authenticated={this.state.currentUser} exact path='/listNews' component={ListNews} />
             <AuthenticatedRoute authenticated={this.state.currentUser} exact path='/showNews/:id' component={NewsDetail} />
             <AuthenticatedRoute authenticated={this.state.currentUser} exact path='/editNews/:id' component={Edit} />
+            <Route exact path='/logout' component={Logout} />
 
-            <Route exact path='/termsAndConditions' component={TermsConditions} />
             <Route component={NotFound} />
           </Switch>
           <Footer />

@@ -30,7 +30,9 @@ class AddNews extends Component {
   handleChange1 = e => {
     if (e.target.files[0]) {
       const image = e.target.files[0];
-      this.setState(() => ({ image }), () => { });
+      this.setState(() => ({ image }), () => {
+
+      });
     }
   };
   // for textfields
@@ -38,6 +40,7 @@ class AddNews extends Component {
     this.setState({
       [e.target.id]: e.target.value
     }, () => {
+
     })
   }
   //handle onSubmit()
@@ -45,7 +48,9 @@ class AddNews extends Component {
     e.preventDefault();
     //checks whether image is there 
     const { image } = this.state;
-    // adding image to the images folder of storage
+    const min = 1;
+    const max = 100;
+    const rand = min + Math.random() * (max - min);    // adding image to the images folder of storage
     const uploadTask = await firebase.storage().ref(`images/${image.name}`)
       .put(image).on(
         "state_changed",
@@ -106,6 +111,8 @@ class AddNews extends Component {
     await this.setState({
       heading: '', url: '', link: '', description: '', date: ''
     })
+
+
   }
   render() {
 
