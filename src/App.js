@@ -26,7 +26,7 @@ function AuthenticatedRoute({ component: Component, authenticated, ...rest }) {
     <Route
       {...rest}
       render=
-      {(props) => authenticated === null || false ? <Redirect to={{ pathname: '/login', state: { from: props.location } }} /> : <Component {...props} {...rest} />
+      {(props) => authenticated === false || null ? <Redirect to={{ pathname: '/login', state: { from: props.location } }} /> : <Component {...props} {...rest} />
 
       }
     />
