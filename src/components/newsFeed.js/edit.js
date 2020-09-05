@@ -16,25 +16,6 @@ class Edit extends Component {
     };
   }
 
-  componentDidMount() {
-    const ref = firebase.firestore().collection('newsData').doc(this.props.match.params.id);
-    ref.get().then((doc) => {
-      if (doc.exists) {
-        const board = doc.data();
-        this.setState({
-          key: doc.id,
-          heading: board.heading,
-          description: board.description,
-          link: board.link,
-          date: board.date,
-          url: board.url, image: []
-        });
-      } else {
-        console.log("No such document!");
-      }
-    });
-  }
-
   //for image
   handleChange1 = e => {
     if (e.target.files[0]) {
@@ -42,13 +23,7 @@ class Edit extends Component {
       this.setState(() => ({ image }), () => { });
     }
   };
-  // for textfields
-  handleChange = (e) => {
-    this.setState({
-      [e.target.id]: e.target.value
-    }, () => {
-    })
-  }
+
   handleSubmit = async (e) => {
     e.preventDefault();
     //checks whether image is there 
@@ -88,11 +63,19 @@ class Edit extends Component {
             );
         })
   }
+
+  // for textfields
+  handleChange = (e) => {
+    this.setState({
+      [e.target.name]: e.target.value
+    }, () => {
+    })
+  }
+
   handleSubmit1 = async (e) => {
     e.preventDefault();
 
     const { heading, description, link, date, url } = this.state;
-
     const updateRef = await firebase.firestore().collection('newsData').doc(this.state.key);
     updateRef.set({
       heading,
@@ -100,16 +83,35 @@ class Edit extends Component {
       link, date, url
     }).then((docRef) => {
       this.setState({
-        key: '',
-        heading: '',
-        description: '',
-        link: '', date: ''
+        key: this.state.key,
+        heading: this.state.heading,
+        description: this.state.description,
+        link: this.state.link, date: this.state.date
       });
       this.props.history.push("/showNews/" + this.props.match.params.id)
     })
       .catch((error) => {
         console.error("Error adding document: ", error);
       });
+  }
+
+  componentDidMount() {
+    const ref = firebase.firestore().collection('newsData').doc(this.props.match.params.id);
+    ref.get().then((doc) => {
+      if (doc.exists) {
+        const board = doc.data();
+        this.setState({
+          key: doc.id,
+          heading: board.heading,
+          description: board.description,
+          link: board.link,
+          date: board.date,
+          url: board.url, image: []
+        });
+      } else {
+        console.log("No such document!");
+      }
+    });
   }
 
   render() {
@@ -141,20 +143,20 @@ class Edit extends Component {
               </div>
               <div class="form-group">
                 <label htmlFor="title">Heading:</label>
-                <input type="text" className="form-control" name="heading" value={this.state.heading} onChange={this.onChange} placeholder="Title" />
+                <input type="text" className="form-control" name="heading" value={this.state.heading} onChange={this.handleChange} placeholder="Title" />
               </div>
               <div class="form-group">
                 <label htmlFor="description">Description:</label>
-                <input type="text" className="form-control" name="description" value={this.state.description} onChange={this.onChange} placeholder="Description" />
+                <input type="text" className="form-control" name="description" value={this.state.description} onChange={this.handleChange} placeholder="Description" />
               </div>
               <div className="form-group">
                 <label htmlFor="author">Author:</label>
-                <input type="text" class="form-control" name="link" value={this.state.link} onChange={this.onChange} placeholder="Author" />
+                <input type="text" class="form-control" name="link" value={this.state.link} onChange={this.handleChange} placeholder="Author" />
               </div>
 
               <div className="form-group">
                 <label htmlFor="author">Author:</label>
-                <input type="text" className="form-control" name="date" value={this.state.date} onChange={this.onChange} placeholder="Author" />
+                <input type="text" className="form-control" name="date" value={this.state.date} onChange={this.handleChange} placeholder="Author" />
               </div>
 
               {this.state.url && this.state.heading && this.state.link && this.state.date && this.state.description ?
