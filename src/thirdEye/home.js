@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom'
 const LeveragingData = {
     margin: "44px 0 0 29px"
 };
@@ -32,8 +32,8 @@ class Home extends Component {
                             </div>
                             <div className="row">
                                 <div className="col-lg-12 col-sm-12 SetRigBtn">
-                                    <a href="register.html">
-                                        <button type="button" className="btn">Register here</button>
+                                    <a href="/register">
+                                        <button to='/register' className="btn">Register here</button>
                                     </a>
                                 </div>
                             </div>
@@ -75,7 +75,7 @@ class Home extends Component {
                                         </div>
 
                                         <div className="col-lg-4 col-md-3 col-sm-12 p-0 SetsArtificialsParas">
-                                            <img src={'images / 449.png'} alt="449" />
+                                            <img src={'images/449.png'} alt="449" />
                                         </div>
                                     </div>
                                 </div>
