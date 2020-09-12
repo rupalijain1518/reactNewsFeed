@@ -18,14 +18,14 @@ class Home extends Component {
                             <div className="row">
                                 <div className="col-sm-12 SetDataDigital">
                                     <h1>
-                                        <span className="MainHeadSpan">An</span>
+                                        <span className="MainHeadSpan">An </span>
                                         <span>AI Powered Digital Learning Platform</span></h1>
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="col-sm-12 ParaPotential">
                                     <p>
-                                        <span>We help students find a career that maximizes</span>
+                                        <span>We help Students to find a career that maximize </span>
                                         <span>their potential.</span>
                                     </p>
                                 </div>
@@ -213,7 +213,7 @@ class Home extends Component {
                                             <img src="images/electronics.png" alt="electronics" style={{ width: '100%' }} />
                                         </div>
                                         <div className="col-md-8 col-sm-12 LeveragingDatas">
-                                            <h2>Making Aptitude meet Passion</h2>
+                                            <h2>Making Aptitude to meet Passion</h2>
                                         </div>
                                         <div className="col-lg-8 col-md-9 col-sm-12 p-0 SetArtificialsParas">
                                             <p>Through our team of experts, ThirdEye acts as a match-maker between passion and potential to ensure that our learners are directed to the right career path.</p>
@@ -280,37 +280,52 @@ class Home extends Component {
                                         <div className="col-lg-6 col-md-12 col-sm-12">
                                             <div className="row SetButtonPos">
                                                 <div className="col-xl-10 col-lg-12 col-sm-12 ButtonBarIcon">
-                                                    <button className="btn">
-                                                        <img src="images/test.png" alt="no image" />
-                                                        <span>AI</span>
-                                                    </button>
+                                                    <a href="/ai">
+
+                                                        <button to='/ai' className="btn">
+                                                            <img src="images/test.png" alt="no image" />
+                                                            <span>AI</span>
+                                                        </button>
+                                                    </a>
                                                 </div>
                                                 <div className="col-xl-10 col-lg-12 col-sm-12 ButtonBarIcon ButtonsBarsIcons">
-                                                    <button className="btn">
-                                                        <img src="images/online-course.png" alt="no image" />
-                                                        <span>Courses</span>
-                                                    </button>
+                                                    <a href="/courses">
+
+                                                        <button to='/courses' className="btn">
+                                                            <img src="images/online-course.png" alt="no image" />
+                                                            <span>Courses</span>
+                                                        </button>
+                                                    </a>
                                                 </div>
 
                                                 <div className="col-xl-10 col-lg-12 col-sm-12 ButtonBarIcon ButtonBarIcons">
-                                                    <button className="btn">
-                                                        <img src="images/map-route.png" alt="no image" />
-                                                        <span>Career Guidance</span>
-                                                    </button>
+                                                    <a href="/career-guidance">
+
+                                                        <button to='/career-guidance' className="btn">
+                                                            <img src="images/map-route.png" alt="no image" />
+                                                            <span>Career Guidance</span>
+                                                        </button>
+                                                    </a>
                                                 </div>
 
                                                 <div className="col-xl-10 col-lg-12 col-sm-12 ButtonBarIcon ButtonBarsIcons">
-                                                    <button className="btn">
-                                                        <img src="images/test.png" alt='no image' />
-                                                        <span>Quiz Competition</span>
-                                                    </button>
+                                                    <a href="/quiz-competition">
+
+                                                        <button to='/quiz-competition' className="btn">
+                                                            <img src="images/test.png" alt='no image' />
+                                                            <span>Quiz Competition</span>
+                                                        </button>
+                                                    </a>
                                                 </div>
 
                                                 <div className="col-xl-10 col-lg-12 col-sm-12 ButtonBarIcon ButtonBarIconed">
-                                                    <button className="btn">
-                                                        <img src="images/human-resources-data-of-job-performance.png" />
-                                                        <span>Performance Analytics</span>
-                                                    </button>
+                                                    <a href="/performance-analytics">
+
+                                                        <button to='/performance-analytics' className="btn">
+                                                            <img src="images/human-resources-data-of-job-performance.png" />
+                                                            <span>Performance Analytics</span>
+                                                        </button>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
@@ -322,7 +337,7 @@ class Home extends Component {
                                             <img src="images/5-3.png" alt="5-3" />
                                         </div>
                                         <div className="col-md-12 offset-sm-1 col-sm-10">
-                                            <p>Using the state of the Art Analytics and AI, Students receive career Guidance, Career streams, Simplified Subject Content, Numerous quizzes and performance Analysis all at the same place. </p>
+                                            <p>Using the state of the Art Analytics and AI, Students receive career guidance, Career streams, Simplified subject content, Numerous quizzes and Performance analysis all at the same place. </p>
                                         </div>
                                     </div>
 
@@ -385,8 +400,8 @@ class Home extends Component {
                                     </div>
                                     <div className="row">
                                         <div className="col-sm-12 StartGetBtnSet">
-                                            <a href="register.js">
-                                                <button type="button" className="btn btn-outline-success">Get Started</button>
+                                            <a href="/register">
+                                                <button to='/register' className="btn btn-outline-success">Get Started</button>
                                             </a>
                                         </div>
                                     </div>
@@ -402,10 +417,9 @@ class Home extends Component {
                                     <p>Move forward and optimize your path with us</p>
                                 </div>
                                 <div className="col-sm-12 SetsRigsBtns text-center">
-                                    <a href="register.html">
-                                        <button type="button" className="btn">Register here</button>
-                                    </a>
-                                </div>
+                                    <a href="/register">
+                                        <button to='/register' className="btn">Register here</button>
+                                    </a>                                </div>
                             </div>
                         </div>
                     </div>

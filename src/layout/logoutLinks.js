@@ -4,10 +4,7 @@ const LogoutLinks = () => {
   return (
 
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-
-
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-
       </button>
       <NavLink className="navbar-brand NavLogo" exact to="/">
         <img src="images/thirdeye-logo.png" alt="logo" />
@@ -20,7 +17,7 @@ const LogoutLinks = () => {
             <NavLink className="nav-link" exact to="/">Home</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" exact to='/about'>About</NavLink>
+            <NavLink className="nav-link" exact to='/about'>About Us</NavLink>
           </li>
           <li className="nav-item">
             <NavLink className='nav-link' exact to='/vision'>Our Vision</NavLink>
@@ -32,6 +29,10 @@ const LogoutLinks = () => {
             News Portal
 				      </NavLink>
           </li>
+          <li className="nav-item"><NavLink className='nav-link' exact to='/expert-session'>
+            Expert Session
+				      </NavLink>
+          </li>
           <li className="nav-item">
             <NavLink className="nav-link" exact to="/login">Login</NavLink>
           </li>
@@ -40,7 +41,6 @@ const LogoutLinks = () => {
           </li>
         </ul>
       </div>
-
     </div>
   );
 }

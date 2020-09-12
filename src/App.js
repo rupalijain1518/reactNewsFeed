@@ -21,6 +21,16 @@ import About from './thirdEye/about'
 import Disclaimer from './thirdEye/Disclaimer';
 import Register from './thirdEye/register';
 import Home from './thirdEye/home';
+import Vision from './thirdEye/vision';
+import ExpertSession from './thirdEye/expertSession';
+import Ai from './thirdEye/ai';
+import Courses from './thirdEye/courses';
+import CareerGuidance from './thirdEye/careerGuidance';
+import PerformanceAnalytics from './thirdEye/performanceAnalytics';
+import QuizCompetition from './thirdEye/quizCompetition';
+
+
+
 function AuthenticatedRoute({ component: Component, authenticated, ...rest }) {
   return (
     <Route
@@ -92,12 +102,21 @@ class App extends Component {
             <Route exact path="/login"
               render={(props) => { return <Login setCurrentUser={this.setCurrentUser} {...props} /> }}
             />
+
+            <Route exact path='/ai' component={Ai} />
+            <Route exact path='/courses' component={Courses} />
+            <Route exact path='/career-guidance' component={CareerGuidance} />
+            <Route exact path='/quiz-competition' component={QuizCompetition} />
+            <Route exact path='/performance-analytics' component={PerformanceAnalytics} />
             <Route exact path='/privacyPolicy' component={PrivacyPolicy} />
             <Route exact path='/about' component={About} />
+            <Route exact path='/vision' component={Vision} />
             <Route exact path='/disclaimer' component={Disclaimer} />
             <Route exact path='/register' component={Register} />
             <Route exact path='/news-portal' component={NewsPortal} />
             <Route exact path='/partner' component={Partner} />
+            <Route exact path='/expert-session' component={ExpertSession} />
+
             <AuthenticatedRoute authenticated={this.state.currentUser} exact path='/addNews' component={News} />
             <AuthenticatedRoute authenticated={this.state.currentUser} exact path='/listNews' component={ListNews} />
             <AuthenticatedRoute authenticated={this.state.currentUser} exact path='/showNews/:id' component={NewsDetail} />
