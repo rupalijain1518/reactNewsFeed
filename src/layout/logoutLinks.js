@@ -26,7 +26,7 @@ const LogoutLinks = () => {
             <NavLink className='nav-link' exact to='/partner'>Partner</NavLink>
           </li>
           <li className="nav-item"><NavLink className='nav-link' exact to='/news-portal'>
-            News Portal
+            Newsletter
 				      </NavLink>
           </li>
           <li className="nav-item"><NavLink className='nav-link' exact to='/expert-session'>

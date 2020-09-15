@@ -61,7 +61,7 @@ class Register extends Component {
 
                                 <div className="input-icons">
                                     <input className="input-field SetPasswordBox" id="pwd" name="pwd" minLength="8" type="Password" placeholder="Password" required />
-                                    <input className="input-field SetsPasswordBox" id="pwd" name="pwd" minLength="8" type="Password" placeholder="Conform Password" required />
+                                    <input className="input-field SetsPasswordBox" id="pwd" name="pwd" minLength="8" type="Password" placeholder="Confirm Password" required />
                                 </div>
 
                                 <div className="row SetgenderTyp">

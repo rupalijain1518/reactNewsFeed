@@ -374,7 +374,7 @@ class Home extends Component {
                                         <div className="col-sm-12 PackagesSets">
                                             <ul className="breadcrumb">
                                                 <li className="MainRateSet"> Rs </li>
-                                                <li className="MainRateSet"> 1799 </li>
+                                                <li className="MainRateSet"> 4799 </li>
                                                 <li className="MainRateUser"> / yr</li>
                                                 <li className="MainRateUser"> / user</li>
                                             </ul>
