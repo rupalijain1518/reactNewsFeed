@@ -119,7 +119,7 @@ class App extends Component {
             <Route exact path='/vision' component={Vision} />
             <Route exact path='/disclaimer' component={Disclaimer} />
             <Route exact path='/register' component={Register} />
-            <Route exact path='/news-portal' component={NewsPortal} />
+            <AuthenticatedRoute authenticated={this.state.currentUser} Route exact path='/news-portal' component={NewsPortal} />
             <Route exact path='/partner' component={Partner} />
             <Route exact path='/expert-session' component={ExpertSession} />
 

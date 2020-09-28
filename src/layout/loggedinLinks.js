@@ -27,6 +27,10 @@ class LoggedInLinks extends Component {
             <NavLink className="nav-link" exact to="/listNews">List News</NavLink>
           </li>
 
+          <li className="nav-item"><NavLink className='nav-link' exact to='/news-portal'>
+            Newsletter
+				      </NavLink>
+          </li>
         </ul>
         <ul className="navbar-nav nav-right">
           <li className="nav-item">
